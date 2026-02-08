@@ -283,7 +283,8 @@ table {
     font-size: 13px;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 1px 8px rgba(59, 108, 246, 0.08), 0 0 1px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 2px 12px rgba(59, 108, 246, 0.12), 0 0 1px rgba(0, 0, 0, 0.1);
+    border: 1px solid #d4deff;
 }
 
 table caption {
@@ -306,7 +307,7 @@ th {
     font-size: 13px;
     letter-spacing: 0.3px;
     border: none;
-    border-right: 1px solid rgba(255, 255, 255, 0.12);
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
     background: transparent;
 }
 
@@ -324,10 +325,10 @@ th.alleft {
 
 td {
     padding: 11px 16px;
-    border-bottom: 1px solid #eaeff6;
-    border-right: 1px solid #eaeff6;
+    border-bottom: 1px solid #d4deff;
+    border-right: 1px solid #d4deff;
     background-color: #ffffff;
-    color: #3a4a64;
+    color: #2c3e50;
     vertical-align: middle;
     transition: background-color 0.15s ease;
 }
@@ -349,11 +350,11 @@ td.alleft {
 }
 
 tbody tr:nth-child(even) td {
-    background-color: #f7f9fc;
+    background-color: #f5f9ff;
 }
 
 tbody tr:hover td {
-    background-color: #edf2ff;
+    background-color: #e8f2ff;
 }
 
 tbody tr:first-child td {
@@ -589,6 +590,50 @@ hr {
         opacity: 1;
         transform: scale(1);
     }
+}
+
+.zoom-controls {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 8px;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 8px 12px;
+    border-radius: 24px;
+    z-index: 1001;
+}
+
+.zoom-btn {
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #1a2744;
+    border-radius: 50%;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.zoom-btn:hover {
+    background-color: #3b6cf6;
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+.zoom-btn:active {
+    transform: scale(0.95);
+}
+
+.zoom-reset {
+    font-size: 12px;
+    width: 50px;
 }
 
 /* ========================================

@@ -18,12 +18,17 @@
                 <div id="sidebar-header">
                     <h2>目录导航</h2>
                 </div>
+                <div id="search-container">
+                    <input type="text" id="search-input" placeholder="搜索目录..." autocomplete="off">
+                    <button type="button" id="search-clear" class="search-clear hidden">&times;</button>
+                    <div id="search-results" class="search-results hidden"></div>
+                </div>
                 <div id="tree-container">
                     <div id="loading">加载目录中...</div>
                 </div>
             </div>
             <div id="content">
-                <iframe id="content-frame" name="content-frame" src="" frameborder="0"></iframe>
+                <iframe id="content-frame" name="content-frame" src="" frameborder="0" allow="context-menu; selection"></iframe>
             </div>
         </div>
     </div>
