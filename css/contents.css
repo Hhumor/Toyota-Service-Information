@@ -13,9 +13,9 @@ html, body {
 body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-serif;
     font-size: 14px;
-    line-height: 1.75;
-    color: #2c3e50;
-    background-color: #ffffff;
+    line-height: 1.8;
+    color: #3A3A42;
+    background-color: #FFFFFF;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -23,7 +23,7 @@ body {
 #wrapper {
     width: 100%;
     min-height: 100%;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
 }
 
 #header,
@@ -37,7 +37,7 @@ body {
 }
 
 #contents {
-    padding: 16px 40px;
+    padding: 28px 48px;
     overflow-x: hidden;
 }
 
@@ -50,21 +50,18 @@ body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", sans-serif;
 }
 
-/* ========================================
-   globalInfo - 面包屑导航条
-   ======================================== */
 .globalInfo {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 0;
-    padding: 10px 16px;
-    margin-bottom: 24px;
-    background: linear-gradient(135deg, #f0f4ff 0%, #e8eeff 100%);
+    padding: 10px 18px;
+    margin-bottom: 28px;
+    background: #F4F4F5;
     border-radius: 8px;
-    border: 1px solid #d4deff;
+    border: 1px solid #E8E8EA;
     font-size: 12px;
-    color: #5b6b8a;
+    color: #78797E;
     line-height: 1.5;
 }
 
@@ -78,7 +75,7 @@ body {
 .globalInfo .globalSubTitleName {
     display: inline-flex;
     align-items: center;
-    color: #4a5d82;
+    color: #58595B;
     font-weight: 500;
 }
 
@@ -87,25 +84,22 @@ body {
 .globalInfo .globalTitleName::after {
     content: "›";
     margin: 0 10px;
-    color: #93a3c4;
+    color: #9EA0A5;
     font-size: 16px;
     font-weight: 300;
 }
 
 .globalInfo .globalSubTitleName {
-    color: #3b6cf6;
+    color: #EB0A1E;
     font-weight: 600;
 }
 
-/* ========================================
-   h1 - 页面主标题
-   ======================================== */
 h1 {
     font-size: 22px;
     font-weight: 700;
-    color: #1a2744;
-    margin: 0 0 16px 0;
-    padding: 0 0 10px 0;
+    color: #1A1A1F;
+    margin: 0 0 20px 0;
+    padding: 0 0 14px 0;
     border-bottom: none;
     line-height: 1.5;
     position: relative;
@@ -117,90 +111,91 @@ h1::after {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
+    width: 60px;
     height: 3px;
-    background: linear-gradient(90deg, #3b6cf6 0%, #7c9cff 60%, transparent 100%);
+    background: #EB0A1E;
     border-radius: 2px;
 }
 
 h2 {
     font-size: 19px;
     font-weight: 700;
-    color: #1a2744;
-    margin: 20px 0 12px 0;
-    padding-bottom: 8px;
-    border-bottom: 2px solid #e4e9f2;
+    color: #1A1A1F;
+    margin: 28px 0 14px 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #E8E8EA;
 }
 
 h3 {
     font-size: 17px;
     font-weight: 600;
-    color: #2a4080;
-    margin: 16px 0 10px 0;
+    color: #282830;
+    margin: 20px 0 10px 0;
 }
 
 h4 {
     font-size: 15px;
     font-weight: 600;
-    color: #3b6cf6;
-    margin: 14px 0 8px 0;
+    color: #EB0A1E;
+    margin: 16px 0 8px 0;
 }
 
-/* ========================================
-   category / content5 - 内容区块
-   ======================================== */
 .category {
-    margin-bottom: 28px;
+    margin-bottom: 32px;
 }
 
 .content5 {
-    padding: 16px 20px;
-    background-color: #fafbfd;
+    padding: 20px 24px;
+    background-color: #FAFAFA;
     border-radius: 10px;
-    border: 1px solid #e8ecf4;
+    border: 1px solid #E8E8EA;
 }
 
 .no00 { background-color: transparent; }
-.no01 { background-color: #fafbfd; }
-.no02 { background-color: #f5f7fb; }
+.no01 { background-color: #FAFAFA; }
+.no02 { background-color: #F4F4F5; }
 
-/* ========================================
-   p.step1 / .titleText - 子栏目标题
-   ======================================== */
 div.step1 {
-    margin-bottom: 12px;
+    margin-bottom: 16px;
 }
 
 p.step1 {
     display: flex;
     align-items: center;
-    margin: 0 0 8px 0;
-    padding: 8px 14px;
-    background: linear-gradient(135deg, #1a2744 0%, #2a4080 100%);
-    border-radius: 6px;
+    margin: 0 0 10px 0;
+    padding: 10px 18px;
+    background: #1A1A1F;
+    border-radius: 8px;
     position: relative;
     overflow: hidden;
 }
 
+p.step1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: #EB0A1E;
+}
+
 p.step1 .titleText {
     font-weight: 600;
-    color: #ffffff;
+    color: #FFFFFF;
     font-size: 15px;
-    letter-spacing: 0.5px;
+    letter-spacing: 0.3px;
     line-height: 1.6;
 }
 
-/* ========================================
-   step2 / step3 - 步骤列表
-   ======================================== */
 .step2 {
     margin-left: 8px;
-    margin-top: 12px;
+    margin-top: 14px;
 }
 
 .step2Item {
     display: flex;
-    margin-bottom: 4px;
+    margin-bottom: 6px;
     align-items: flex-start;
     padding: 4px 0;
 }
@@ -208,10 +203,10 @@ p.step1 .titleText {
 .step2Head {
     min-width: 28px;
     font-weight: 700;
-    color: #3b6cf6;
+    color: #EB0A1E;
     flex-shrink: 0;
     font-size: 14px;
-    line-height: 1.75;
+    line-height: 1.8;
     display: flex;
     align-items: center;
 }
@@ -226,12 +221,12 @@ p.step1 .titleText {
 
 .step3 {
     margin-left: 16px;
-    margin-top: 6px;
+    margin-top: 8px;
 }
 
 .step3Item {
     display: flex;
-    margin-bottom: 2px;
+    margin-bottom: 4px;
     align-items: flex-start;
     padding: 2px 0;
 }
@@ -239,10 +234,10 @@ p.step1 .titleText {
 .step3Head {
     min-width: 36px;
     font-weight: 600;
-    color: #7c9cff;
+    color: #78797E;
     flex-shrink: 0;
     font-size: 13px;
-    line-height: 1.75;
+    line-height: 1.8;
     display: flex;
     align-items: center;
 }
@@ -255,13 +250,10 @@ p.step1 .titleText {
     margin: 0;
 }
 
-/* ========================================
-   p - 段落
-   ======================================== */
 p {
     margin: 8px 0;
     text-align: justify;
-    line-height: 1.75;
+    line-height: 1.8;
 }
 
 br {
@@ -272,42 +264,40 @@ br {
     display: none;
 }
 
-/* ========================================
-   table - 表格
-   ======================================== */
 table {
     width: 100%;
     border-collapse: separate;
     border-spacing: 0;
-    margin: 12px 0;
+    margin: 16px 0;
     font-size: 13px;
     border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 2px 12px rgba(59, 108, 246, 0.12), 0 0 1px rgba(0, 0, 0, 0.1);
-    border: 1px solid #d4deff;
+    border: 1px solid #E8E8EA;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
 }
 
 table caption {
     font-weight: 600;
     margin-bottom: 12px;
-    color: #1a2744;
+    color: #1A1A1F;
     text-align: left;
     font-size: 14px;
 }
 
 thead tr {
-    background: linear-gradient(135deg, #1a2744 0%, #2a4080 100%);
+    background: #1A1A1F;
 }
 
 th {
-    color: #ffffff;
+    color: #FFFFFF;
     padding: 12px 16px;
     text-align: center;
     font-weight: 600;
-    font-size: 13px;
-    letter-spacing: 0.3px;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
     border: none;
-    border-right: 1px solid rgba(255, 255, 255, 0.15);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
     background: transparent;
 }
 
@@ -325,10 +315,10 @@ th.alleft {
 
 td {
     padding: 11px 16px;
-    border-bottom: 1px solid #d4deff;
-    border-right: 1px solid #d4deff;
-    background-color: #ffffff;
-    color: #2c3e50;
+    border-bottom: 1px solid #E8E8EA;
+    border-right: 1px solid #E8E8EA;
+    background-color: #FFFFFF;
+    color: #3A3A42;
     vertical-align: middle;
     transition: background-color 0.15s ease;
 }
@@ -350,26 +340,23 @@ td.alleft {
 }
 
 tbody tr:nth-child(even) td {
-    background-color: #f5f9ff;
+    background-color: #F9F9FA;
 }
 
 tbody tr:hover td {
-    background-color: #e8f2ff;
+    background-color: #FFF0F1;
 }
 
 tbody tr:first-child td {
     border-top: none;
 }
 
-/* ========================================
-   figure / img - 图片
-   ======================================== */
 .indicateinfo {
     display: none;
 }
 
 .figure {
-    margin: 12px 0;
+    margin: 16px 0;
 }
 
 .cPattern {
@@ -381,8 +368,8 @@ tbody tr:first-child td {
 .figureTitle {
     font-size: 15px;
     font-weight: 600;
-    color: #1a2744;
-    margin-bottom: 12px;
+    color: #1A1A1F;
+    margin-bottom: 14px;
     text-align: center;
 }
 
@@ -397,21 +384,18 @@ img {
     height: auto;
     display: block;
     margin: 0 auto;
-    border-radius: 6px;
-    border: 1px solid #e8ecf4;
-    background-color: #fafbfd;
+    border-radius: 8px;
+    border: 1px solid #E8E8EA;
+    background-color: #FAFAFA;
     padding: 8px;
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
 }
 
 img:hover {
-    border-color: #3b6cf6;
-    box-shadow: 0 0 0 2px rgba(59, 108, 246, 0.2), 0 4px 12px rgba(59, 108, 246, 0.15);
+    border-color: #EB0A1E;
+    box-shadow: 0 0 0 2px rgba(235, 10, 30, 0.12), 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 
-/* ========================================
-   list1 - 列表
-   ======================================== */
 .list1 {
     margin: 4px 0;
 }
@@ -425,7 +409,7 @@ img:hover {
 .list1Head {
     min-width: 16px;
     padding-top: 2px;
-    color: #3b6cf6;
+    color: #EB0A1E;
     font-weight: 600;
     font-size: 14px;
 }
@@ -438,24 +422,18 @@ img:hover {
     margin: 0;
 }
 
-/* ========================================
-   链接
-   ======================================== */
 a {
-    color: #3b6cf6;
+    color: #EB0A1E;
     text-decoration: none;
     border-bottom: 1px solid transparent;
     transition: all 0.2s ease;
 }
 
 a:hover {
-    color: #1a2744;
-    border-bottom-color: #3b6cf6;
+    color: #C4081A;
+    border-bottom-color: #C4081A;
 }
 
-/* ========================================
-   列表
-   ======================================== */
 ul, ol {
     margin: 10px 0;
     padding-left: 28px;
@@ -463,38 +441,32 @@ ul, ol {
 
 li {
     margin: 5px 0;
-    line-height: 1.75;
+    line-height: 1.8;
 }
 
-/* ========================================
-   文本强调
-   ======================================== */
 strong, b {
     font-weight: 700;
-    color: #1a2744;
+    color: #1A1A1F;
 }
 
 em, i {
     font-style: italic;
-    color: #5b6b8a;
+    color: #58595B;
 }
 
-/* ========================================
-   代码
-   ======================================== */
 code {
-    background-color: #f0f4ff;
+    background-color: #FFF0F1;
     padding: 2px 7px;
     border-radius: 4px;
     font-family: "Cascadia Code", "Fira Code", "Consolas", monospace;
     font-size: 13px;
-    color: #c0392b;
-    border: 1px solid #e0e8ff;
+    color: #EB0A1E;
+    border: 1px solid #FDDDE0;
 }
 
 pre {
-    background-color: #1a2744;
-    color: #e2e8f0;
+    background-color: #1A1A1F;
+    color: #E8E8EA;
     padding: 18px;
     border-radius: 8px;
     overflow-x: auto;
@@ -509,28 +481,22 @@ pre code {
     border: none;
 }
 
-/* ========================================
-   引用 / 分割线
-   ======================================== */
 blockquote {
-    border-left: 4px solid #3b6cf6;
-    padding: 12px 20px;
+    border-left: 4px solid #EB0A1E;
+    padding: 14px 20px;
     margin: 18px 0;
-    background-color: #f5f8ff;
-    color: #4a5d82;
-    border-radius: 0 6px 6px 0;
+    background-color: #FFF8F8;
+    color: #58595B;
+    border-radius: 0 8px 8px 0;
 }
 
 hr {
     border: none;
     height: 1px;
-    background: linear-gradient(90deg, transparent, #c8d4f0, transparent);
-    margin: 30px 0;
+    background: linear-gradient(90deg, transparent, #E8E8EA, transparent);
+    margin: 32px 0;
 }
 
-/* ========================================
-   图片预览模态框
-   ======================================== */
 .image-modal {
     display: none;
     position: fixed;
@@ -538,11 +504,13 @@ hr {
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.85);
+    background-color: rgba(26, 26, 31, 0.92);
     z-index: 1000;
     justify-content: center;
     align-items: center;
     padding: 20px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
 }
 
 .image-modal.active {
@@ -552,15 +520,15 @@ hr {
 .image-modal-content {
     max-width: 90%;
     max-height: 90%;
-    border-radius: 8px;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
     animation: modalFadeIn 0.3s ease;
 }
 
 .image-modal-content img {
     max-width: 100%;
     max-height: 90vh;
-    border-radius: 8px;
+    border-radius: 10px;
     border: none;
     padding: 0;
     background-color: transparent;
@@ -570,21 +538,29 @@ hr {
     position: absolute;
     top: 20px;
     right: 30px;
-    color: #ffffff;
+    color: rgba(255, 255, 255, 0.7);
     font-size: 32px;
     cursor: pointer;
-    transition: color 0.2s ease;
+    transition: all 0.2s ease;
     z-index: 1001;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
 }
 
 .image-modal-close:hover {
-    color: #3b6cf6;
+    color: #FFFFFF;
+    background: #EB0A1E;
 }
 
 @keyframes modalFadeIn {
     from {
         opacity: 0;
-        transform: scale(0.9);
+        transform: scale(0.95);
     }
     to {
         opacity: 1;
@@ -598,19 +574,22 @@ hr {
     left: 50%;
     transform: translateX(-50%);
     display: flex;
-    gap: 8px;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 8px 12px;
+    gap: 6px;
+    background-color: rgba(26, 26, 31, 0.9);
+    padding: 6px 10px;
     border-radius: 24px;
     z-index: 1001;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
 }
 
 .zoom-btn {
-    width: 40px;
-    height: 40px;
+    width: 38px;
+    height: 38px;
     border: none;
-    background-color: rgba(255, 255, 255, 0.9);
-    color: #1a2744;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #E8E8EA;
     border-radius: 50%;
     font-size: 18px;
     font-weight: 600;
@@ -622,9 +601,9 @@ hr {
 }
 
 .zoom-btn:hover {
-    background-color: #3b6cf6;
-    color: #ffffff;
-    transform: scale(1.1);
+    background-color: #EB0A1E;
+    color: #FFFFFF;
+    transform: scale(1.08);
 }
 
 .zoom-btn:active {
@@ -634,15 +613,14 @@ hr {
 .zoom-reset {
     font-size: 12px;
     width: 50px;
+    border-radius: 20px;
 }
 
-/* ========================================
-   打印样式
-   ======================================== */
 @media print {
     body {
         font-size: 12pt;
         color: #000;
+        background-color: #fff;
     }
 
     .globalInfo {
