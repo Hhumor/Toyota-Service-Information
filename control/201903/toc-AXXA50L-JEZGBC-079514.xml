@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="NM35K0CC"><servcat id="_51"><name>发动机/混合动力系统</name><section id="_079514">
+<name>A25A-FKS（怠速停止控制）</name>
+<ttl id="_0387413">
+<name>启停系统</name>
+<para category="F" id="NM100000001GX0R" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GX0S" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GX0T" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GX0U" term-id-from="001">
+<name>怠速停止控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GX0X" term-id-from="001">
+<name>带电磁阀的油泵控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GX0V" term-id-from="001">
+<name>环保驾驶车辆转换器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GX0Y" term-id-from="001">
+<name>带电磁阀的油泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GX0W" term-id-from="001">
+<name>组合仪表</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

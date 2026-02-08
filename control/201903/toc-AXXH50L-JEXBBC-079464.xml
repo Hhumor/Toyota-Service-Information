@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="NM35K0CC"><servcat id="_51"><name>发动机/混合动力系统</name><section id="_079464">
+<name>混合动力/蓄电池控制系统</name>
+<ttl id="_0385109">
+<name>混合动力控制系统</name>
+<para category="F" id="NM100000001GKFX" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GKFY" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GKFZ" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GKG0" term-id-from="001">
+<name>THS-II 控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GKFU" term-id-from="001">
+<name>THS-II 控制</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GKFS" term-id-from="001">
+<name>带转换器的逆变器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GKFV" term-id-from="001">
+<name>增压转换器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GKFW" term-id-from="001">
+<name>逆变器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GKFT" term-id-from="001">
+<name>逆变器水泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GKFQ" term-id-from="001">
+<name>加速踏板传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GKFR" term-id-from="001">
+<name>电源电缆</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0385110">
+<name>混合动力蓄电池系统</name>
+<para category="F" id="NM100000001GKG5" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GKG1" term-id-from="001">
+<name>混合动力车辆控制 ECU</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GKG2" term-id-from="001">
+<name>HV 蓄电池</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GKG3" term-id-from="001">
+<name>HV 蓄电池接线盒</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GKG4" term-id-from="001">
+<name>蓄电池智能单元</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

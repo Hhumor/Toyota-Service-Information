@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", "Hiragino Sans GB", sans-serif;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #2c3e50;
+    background-color: #f5f7fa;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#header {
+    background: linear-gradient(135deg, #1a2744 0%, #2a4080 100%);
+    color: #ffffff;
+    padding: 16px 24px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+#header h1 {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+#main {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+#sidebar {
+    width: 320px;
+    background-color: #ffffff;
+    border-right: 1px solid #e8ecf4;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+#sidebar-header {
+    padding: 16px 20px;
+    background: linear-gradient(135deg, #f0f4ff 0%, #e8eeff 100%);
+    border-bottom: 1px solid #d4deff;
+}
+
+#sidebar-header h2 {
+    font-size: 15px;
+    font-weight: 600;
+    color: #1a2744;
+}
+
+#tree-container {
+    flex: 1;
+    overflow-y: auto;
+    padding: 12px 0;
+}
+
+#loading {
+    padding: 20px;
+    text-align: center;
+    color: #5b6b8a;
+    font-size: 13px;
+}
+
+#content {
+    flex: 1;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+#content-frame {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.tree {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.tree li {
+    list-style: none;
+}
+
+.tree-item {
+    display: flex;
+    align-items: center;
+    padding: 8px 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    user-select: none;
+    border-radius: 4px;
+    margin: 2px 8px;
+}
+
+.tree-item:hover {
+    background-color: #f0f4ff;
+}
+
+.tree-item.active {
+    background-color: #e8eeff;
+    color: #3b6cf6;
+    font-weight: 500;
+}
+
+.tree-toggle {
+    display: inline-block;
+    width: 16px;
+    text-align: center;
+    margin-right: 4px;
+    color: #5b6b8a;
+    transition: transform 0.2s ease;
+    font-size: 10px;
+}
+
+.tree-toggle.expanded {
+    transform: rotate(90deg);
+}
+
+.tree-toggle.invisible {
+    visibility: hidden;
+}
+
+.tree-icon {
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.tree-text {
+    flex: 1;
+    font-size: 13px;
+    color: #2c3e50;
+}
+
+.tree-children {
+    padding-left: 20px;
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="NM35K0CC"><servcat id="_51"><name>发动机/混合动力系统</name><section id="_079486">
+<name>A25A-FKS（润滑系统）</name>
+<ttl id="_0385287">
+<name>润滑系统</name>
+<para category="F" id="NM100000001GLGK" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLGL" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLGJ" term-id-from="001">
+<name>机油泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLGI" term-id-from="001">
+<name>机油喷嘴</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLGH" term-id-from="001">
+<name>机油滤清器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLGM" term-id-from="001">
+<name>机油冷却器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

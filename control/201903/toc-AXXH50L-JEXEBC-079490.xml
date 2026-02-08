@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="NM35K0CC"><servcat id="_51"><name>发动机/混合动力系统</name><section id="_079490">
+<name>A25B-FXS（进气/排气系统）</name>
+<ttl id="_0385291">
+<name>进气系统</name>
+<para category="F" id="NM100000001GLHH" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLHI" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLHJ" term-id-from="001">
+<name>空气滤清器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLHL" term-id-from="001">
+<name>进气歧管</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLHK" term-id-from="001">
+<name>节气门体</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0385292">
+<name>排气系统</name>
+<para category="F" id="NM100000001GLHN" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLHO" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLHM" term-id-from="001">
+<name>排气歧管</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLHP" term-id-from="001">
+<name>排气管</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

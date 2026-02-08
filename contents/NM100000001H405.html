@@ -1,0 +1,708 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body onSelectStart="return false" onContextMenu="return false" onSelectStart="return false" onContextMenu="return false">
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">NM35K0CC</span>
+<span class="globalServcat">_58</span>
+<span class="globalServcatName">车辆内饰</span>
+<span class="globalSection">_080177</span>
+<span class="globalSectionName">防盗/无钥匙上车系统</span>
+<span class="globalTitle">_0388789</span>
+<span class="globalTitleName">防盗系统</span>
+<span class="globalSubTitle">CO</span>
+<span class="globalSubTitleName">控制</span>
+<span class="globalCategory">F</span>
+</div>
+<h1>防盗/无钥匙上车系统&nbsp;&nbsp;防盗系统&nbsp;&nbsp;控制&nbsp;&nbsp;防盗控制&nbsp;&nbsp;</h1>
+<br>
+<div id="NM100000001H405_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">功能
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>防盗系统具有以下功能：
+</p>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:75%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">功能
+</th>
+<th class="alcenter">概要
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft">警报
+</td>
+<td class="alleft">防盗系统切换至警报状态时，操作警报项目并鸣响警报约 27.5 秒。
+</td>
+</tr>
+<tr>
+<td class="alleft">警报指示灯
+</td>
+<td class="alleft">防盗系统切换至警戒准备状态或警报状态时，安全指示灯点亮以告知用户。该指示灯也是发动机停机系统指示灯，在发动机停机系统处于设定状态时闪烁。
+</td>
+</tr>
+<tr>
+<td class="alleft">强行锁止车门
+</td>
+<td class="alleft">满足下列所有条件时，主车身 ECU（多路网络车身 ECU）将车门锁止信号传输至所有车门：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>防盗系统处于警报状态。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>执行区域没有电子钥匙发射器分总成。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>任一车门解锁。
+</p>
+</div>
+</div>
+</div>
+<br>
+满足以下条件之一时，功能停止：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>所有车门锁止。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>警报在约 27.5 秒后停止。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>执行区域有电子钥匙发射器分总成。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">工作原理
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>防盗系统的状态如下：
+</p>
+<table summary="">
+<colgroup>
+<col style="width:25%">
+<col style="width:50%">
+<col style="width:25%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">状态
+</th>
+<th class="alcenter">描述
+</th>
+<th class="alcenter">防盗检测
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>解除警戒状态
+</td>
+<td>用户未设定防盗系统。
+</td>
+<td class="alcenter">无法检测
+</td>
+</tr>
+<tr>
+<td>警戒准备状态
+</td>
+<td>这是用户设定系统时在防盗系统激活（进入警戒状态）前的准备状态。
+</td>
+<td class="alcenter">无法检测
+</td>
+</tr>
+<tr>
+<td>警戒状态
+</td>
+<td>防盗系统激活。（可以检测到盗窃。）
+</td>
+<td class="alcenter">可以检测
+</td>
+</tr>
+<tr>
+<td>警报状态
+</td>
+<td>检测到盗窃企图并激活警报。
+</td>
+<td class="alcenter">可以检测
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/Y112351E01.png" alt="Y112351E01" title="Y112351E01">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">1.75,1.49 3.021,1.693</span>
+<span class="captionSize">1.26,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">解除警戒状态 1*1 </span>
+</span>
+<span class="caption">
+<span class="points">5.042,1.49 6.313,1.693</span>
+<span class="captionSize">1.26,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">解除警戒状态 2*2 </span>
+</span>
+<span class="caption">
+<span class="points">2.385,3.208 4.01,3.412</span>
+<span class="captionSize">1.615,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">警戒准备状态 </span>
+</span>
+<span class="caption">
+<span class="points">2.792,4.615 3.615,4.818</span>
+<span class="captionSize">0.813,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">警戒状态 </span>
+</span>
+<span class="caption">
+<span class="points">2.49,6 3.906,6.203</span>
+<span class="captionSize">1.406,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">警报鸣响状态 </span>
+</span>
+<span class="caption">
+<span class="points">1.125,2.583 2.01,2.787</span>
+<span class="captionSize">0.875,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">条件 (3) </span>
+</span>
+<span class="caption">
+<span class="points">3.031,2.583 3.917,2.787</span>
+<span class="captionSize">0.875,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">条件 (1) </span>
+</span>
+<span class="caption">
+<span class="points">3.604,1.979 4.49,2.183</span>
+<span class="captionSize">0.875,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">条件 (9) </span>
+</span>
+<span class="caption">
+<span class="points">3.583,1.323 4.542,1.526</span>
+<span class="captionSize">0.948,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">条件 (10) </span>
+</span>
+<span class="caption">
+<span class="points">4.375,2.719 5.26,2.922</span>
+<span class="captionSize">0.875,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">条件 (8) </span>
+</span>
+<span class="caption">
+<span class="points">3.802,5.313 4.688,5.516</span>
+<span class="captionSize">0.875,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">条件 (4) </span>
+</span>
+<span class="caption">
+<span class="points">4.938,5.833 5.802,6.037</span>
+<span class="captionSize">0.854,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">条件 (7) </span>
+</span>
+<span class="caption">
+<span class="points">0.375,6.885 3.542,7.089</span>
+<span class="captionSize">3.156,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*1：解除警戒状态 1 为正常解除警戒状态。 </span>
+</span>
+<span class="caption">
+<span class="points">0.375,7.198 6.344,7.615</span>
+<span class="captionSize">5.958,0.406</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*2：从解除警戒状态 1、警戒准备状态、警戒状态或警报鸣响状态设定解除警戒状态 2。 </span>
+</span>
+<span class="caption">
+<span class="points">4.927,4.469 5.813,4.672</span>
+<span class="captionSize">0.875,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">条件 (7) </span>
+</span>
+<span class="caption">
+<span class="points">2.5,5.313 3.385,5.516</span>
+<span class="captionSize">0.875,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">条件 (6) </span>
+</span>
+<span class="caption">
+<span class="points">0.521,5.802 1.406,6.006</span>
+<span class="captionSize">0.875,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">条件 (5) </span>
+</span>
+<span class="caption">
+<span class="points">0.521,4.427 1.406,4.631</span>
+<span class="captionSize">0.875,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">条件 (5) </span>
+</span>
+<span class="caption">
+<span class="points">3.802,3.917 4.688,4.12</span>
+<span class="captionSize">0.875,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">条件 (2) </span>
+</span>
+<span class="caption">
+<span class="points">4.927,3.583 5.844,3.787</span>
+<span class="captionSize">0.906,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">条件 (11) </span>
+</span>
+<span class="caption">
+<span class="points">1.083,0.854 2.125,1.058</span>
+<span class="captionSize">1.031,0.193</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">解除警戒状态 </span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>如上图所示，下表中的任一项目出现时防盗系统激活，以使系统进入相应状态。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">项目
+</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="2">
+<div class="footNote"><p>*1：HV 车型
+</p><p>*2：汽油车型
+</p></div>
+</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td class="alcenter">条件 (1)
+</td>
+<td>在解除警戒状态 1 下，电源开关*1 或发动机开关*2 置于 OFF 位置时，如果满足下列条件，则将切换系统状态：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>所有车门、行李箱门和发动机罩关闭时，通过遥控操作或智能上车和起动系统可锁止所有车门。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">条件 (2)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>经过约 9 秒。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">条件 (3)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>通过遥控操作或智能上车和起动系统可解锁所有车门。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>任一车门解锁。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>任一车门打开。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>按下电源开关*1 或发动机开关*2。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电源开关*1 或发动机开关*2 置于 ON (ACC) 或 ON (IG) 位置。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>重新连接辅助蓄电池。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">条件 (4)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机罩关闭时打开。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>行李箱门关闭时打开。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机罩或行李箱门打开或任一车门解锁时重新连接辅助蓄电池。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>所有车门关闭时打开任一车门。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>所有车门锁止时解锁任一车门。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>按下电源开关*1 或发动机开关*2 后经过 5 秒或更长时间时，在不按下电源开关*1 或发动机开关*2 的情况下将电源模式从 OFF 切换至 ON (IG)。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机罩打开。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>行李箱门打开。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>任一车门打开。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电源模式为打开 (IG)。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">条件 (5)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电源开关置于 ON (READY) 位置。*1
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>将发动机开关置于 ON (IG) 位置，且发动机以 550 rpm 的转速运行 2 秒或更长时间。*2
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>通过遥控操作或智能上车和起动系统可解锁所有车门。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">条件 (6)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>约 27.5 秒后，警报停止且 5 秒后系统恢复警戒状态。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">条件 (7)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>通过无线操作或智能进入和起动系统打开行李厢门。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">条件 (8)
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机罩关闭时关闭行李箱门。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>行李箱门关闭时关闭发动机罩。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">条件 (9)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>所有车门锁止时解锁任一车门。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>任一车门打开。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>按下电源开关*1 或发动机开关*2。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电源开关*1 或发动机开关*2 置于 ON (ACC) 或 ON (IG) 位置。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>重新连接辅助蓄电池。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>通过遥控操作或智能上车和起动系统可解锁所有车门。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">条件 (10)
+</td>
+<td>在解除警戒状态 1 下，电源开关*1 或发动机开关*2 置于 OFF 位置时，如果满足下列条件，则将切换系统状态：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>所有车门关闭、发动机罩和行李箱门打开时，通过遥控操作或智能上车和起动系统锁止所有车门。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alcenter">条件 (11)
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机罩打开。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>行李箱门打开。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>通过无线操作或智能进入和起动系统打开行李厢门。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

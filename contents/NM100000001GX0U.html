@@ -1,0 +1,1228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body onSelectStart="return false" onContextMenu="return false" onSelectStart="return false" onContextMenu="return false">
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">NM35K0CC</span>
+<span class="globalServcat">_51</span>
+<span class="globalServcatName">发动机/混合动力系统</span>
+<span class="globalSection">_079514</span>
+<span class="globalSectionName">A25A-FKS 怠速停止控制</span>
+<span class="globalTitle">_0387413</span>
+<span class="globalTitleName">启停系统</span>
+<span class="globalSubTitle">CO</span>
+<span class="globalSubTitleName">控制</span>
+<span class="globalCategory">F</span>
+</div>
+<h1>A25A-FKS 怠速停止控制&nbsp;&nbsp;启停系统&nbsp;&nbsp;控制&nbsp;&nbsp;怠速停止控制&nbsp;&nbsp;</h1>
+<br>
+<div id="NM100000001GX0U_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">主要零部件的功能
+</span></p>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:16%">
+<col style="width:16%">
+<col style="width:66%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter" colspan="2">零部件
+</th>
+<th class="alcenter">功能
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2">发动机启停 ECU
+</td>
+<td>根据各传感器和开关的信号，向 ECM 发送发动机停机或重新起动信号。
+</td>
+</tr>
+<tr>
+<td>发动机启停 ECU
+</td>
+<td>备用增压转换器
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>供应蓄电池电压以补偿发动机重新起动时发生的电压下降，从而防止各系统操作因蓄电池电压低而中断。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>向带电磁阀的机油泵总成提供蓄电池电压。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td colspan="2">驻车档/空档位置开关总成
+</td>
+<td>检测换档杆是否处于驻车档/空档位置，并向发动机启停 ECU 发送信号。
+</td>
+</tr>
+<tr>
+<td colspan="2">真空传感器总成
+</td>
+<td>检测制动助力器真空压力，并向发动机启停 ECU 发送信号。
+</td>
+</tr>
+<tr>
+<td>发动机罩锁总成
+</td>
+<td>发动机罩门控灯开关
+</td>
+<td>检测发动机罩是打开还是关闭，并向发动机启停 ECU 发送信号。
+</td>
+</tr>
+<tr>
+<td colspan="2">前门门控灯开关总成（驾驶员）
+</td>
+<td>检测驾驶员车门是打开还是关闭，并利用 CAN 通信通过主车身 ECU（多路网络车身 ECU）向发动机启停 ECU 发送信号。
+</td>
+</tr>
+<tr>
+<td>前排座椅内安全带总成（驾驶员）
+</td>
+<td>前排座椅安全带带扣开关（驾驶员）
+</td>
+<td>检测驾驶员座椅安全带是否系紧，并利用 CAN 通信通过主车身 ECU（多路网络车身 ECU）向发动机启停 ECU 发送信号。
+</td>
+</tr>
+<tr>
+<td colspan="2">空调放大器总成
+</td>
+<td>将车外温度信号和发动机重新起动信号发送至发动机启停 ECU。
+</td>
+</tr>
+<tr>
+<td class="alleft" colspan="2">环境温度传感器（热敏电阻总成）
+</td>
+<td class="alleft">将车外温度信号发送至空调放大器总成。
+</td>
+</tr>
+<tr>
+<td rowspan="3">组合仪表总成
+</td>
+<td>启停指示灯
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>发动机因启停控制而停止时点亮。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>怠速停止期间，在换档杆置于 D 的情况下打开驾驶员车门时，该指示灯闪烁以告知驾驶员怠速停止已取消且发动机将重新起动。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td>启停取消指示灯
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>启停系统取消开关（电动驻车制动开关总成)禁止启停系统操作时，该指示灯点亮以告知驾驶员系统已禁用。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>如果检测到系统故障，则启停取消指示灯闪烁以告知驾驶员。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td>多信息显示屏
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>显示发动机开关置于 ON (IG) 位置到置于 OFF 位置期间进行怠速停止的时间，及上次按下复位开关后进行怠速停止的时间。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>显示启停系统或警告信息等的设定。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td colspan="2">启停系统取消开关（电动驻车制动开关总成）
+</td>
+<td>按下启停系统取消开关（电动驻车制动开关总成）可以取消系统操作。 再次按下开关或关闭电源然后再打开即可恢复系统操作。
+</td>
+</tr>
+<tr>
+<td colspan="2">ECM
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>向发动机启停 ECU 发送与发动机状态相关的各种信息。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据来自蓄电池状态传感器总成的信号，判断安装在车辆上的蓄电池是否为专用蓄电池，并将判断结果发送至发动机启停 ECU。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td>制动执行器总成
+</td>
+<td>防滑控制 ECU
+</td>
+<td>向发动机启停 ECU 发送车速信号。
+</td>
+</tr>
+<tr>
+<td colspan="2">空气囊 ECU 总成
+</td>
+<td>向发动机启停 ECU 发送空气囊展开信息（如果发生碰撞）和减速信号。
+</td>
+</tr>
+<tr>
+<td colspan="2">主车身 ECU（多路网络车身 ECU）
+</td>
+<td>将前门门控灯开关总成（驾驶员）信号和前排座椅安全带带扣开关（驾驶员）信号发送至发动机启停 ECU。
+</td>
+</tr>
+<tr>
+<td colspan="2">带电动机的动力转向 ECU 总成
+</td>
+<td>向发动机启停 ECU 发送电动动力转向辅助信号。
+</td>
+</tr>
+<tr>
+<td colspan="2">外部备用增压转换器（环保驾驶车辆转换器总成）
+</td>
+<td>发动机停机时对电压下降进行补充，以稳定音频输出。
+</td>
+</tr>
+<tr>
+<td colspan="2">蓄电池状态传感器总成
+</td>
+<td>检测蓄电池充电和放电量，并向 ECM 发送信号。
+</td>
+</tr>
+<tr>
+<td colspan="2">刹车灯开关总成
+</td>
+<td>检测制动踏板松开状态，并通过 ECM 向发动机启停 ECU 发送信号。
+</td>
+</tr>
+<tr>
+<td colspan="2">加速踏板传感器总成
+</td>
+<td>检测加速踏板开度，并通过 ECM 向发动机启停 ECU 发送信号。
+</td>
+</tr>
+<tr>
+<td colspan="2">曲轴位置传感器
+</td>
+<td>检测发动机停止时的曲轴转角，并将该信息发送至 ECM。
+</td>
+</tr>
+<tr>
+<td colspan="2">带电磁阀的油泵总成
+</td>
+<td>怠速停止期间保持 ATF 压力。
+</td>
+</tr>
+<tr>
+<td colspan="2">发动机冷却液温度传感器
+</td>
+<td>通过 ECM 将冷却液温度发送至发动机启停 ECU。
+</td>
+</tr>
+<tr>
+<td colspan="2">发电机总成
+</td>
+<td>通过 ECM 将发电机总成发电情况发送至发动机启停 ECU。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">系统控制
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>早期喷射控制
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>早期喷射控制缩短了启停系统停止发动机后发动机重新起动所需的时间，从而实现了平稳的初始加速操作。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>通过启停系统停止发动机时，ECM 会存储曲轴位置传感器检测到的曲轴转角。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>驾驶员进行重新起动操作时，ECM 判断需要进行的喷油操作并决定要点火的气缸。 然后，ECM 利用该信息起动发动机。
+</p>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/Y188867E11.png" alt="Y188867E11" title="Y188867E11">
+<div class="indicateinfo">
+<span class="caption">
+<span class="points">0.51,1.094 1.896,1.625</span>
+<span class="captionSize">1.375,0.521</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">发动机启停 ECU </span>
+</span>
+<span class="caption">
+<span class="points">3.604,1.094 3.969,1.479</span>
+<span class="captionSize">0.354,0.375</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">ECM </span>
+</span>
+<span class="caption">
+<span class="points">5.24,0.948 7.01,1.302</span>
+<span class="captionSize">1.76,0.344</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">喷油器总成 </span>
+</span>
+<span class="caption">
+<span class="points">5.229,1.344 6.844,1.698</span>
+<span class="captionSize">1.604,0.344</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">点火线圈总成 </span>
+</span>
+<span class="caption">
+<span class="points">3.115,2.229 4.958,2.438</span>
+<span class="captionSize">1.833,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">曲轴位置传感器 </span>
+</span>
+<span class="caption">
+<span class="points">0.5,2.49 2.354,2.74</span>
+<span class="captionSize">1.844,0.24</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">：CAN 通信线路 </span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>上坡起步辅助功能
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>通过在停车时踩下制动踏板可调节之前的 AT 车辆驱动力（爬行现象），并可通过在起动车辆时松开制动踏板传输驱动力。 但是，起动一个配备有启停系统且其发动机因激活怠速停止功能而停止的车辆时，由于松开制动踏板后发动机将起动，因此产生驱动力前会有短暂的延时。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>上坡起步辅助功能是一个辅助系统，可在坡路上辅助配备有启停系统的车辆起动，以应对上述情况，从而保持制动液压力，直到产生足够的驱动力。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>上坡起步辅助功能不仅在斜坡上工作，在水平路面上也可工作。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>可能会听到异常声响，但这并不代表制动器有故障。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>制动踏板响应性能可能会变化或可能会振动，但这并不代表其有故障。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>系统禁止控制
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>出于安全性、蓄电池保护、舒适性和 ECU 学习等原因，如果满足下列任一条件，则发动机启停 ECU 将禁止启停系统操作。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:29%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">禁止原因
+</th>
+<th class="alcenter">条件
+</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="2">
+<div class="footNote"><p>*：如果已通过断开蓄电池或由于其他原因清除 ECU 学习值，将会禁止启停系统操作，直至 ECU 学习完成。
+</p></div>
+</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td rowspan="5">安全性
+</td>
+<td>如果在发动机罩打开的情况下起动发动机，例如，跨接起动时，无法确保发动机重新起动操作。 因此，将禁止启停系统操作。 在下一行程中将恢复系统操作。
+</td>
+</tr>
+<tr>
+<td>如果在发动机停机前打开驾驶员车门或发动机罩，将会禁止启停系统操作以确保安全。
+</td>
+</tr>
+<tr>
+<td>制动助力器真空不足。
+</td>
+</tr>
+<tr>
+<td class="alleft">发动机停机前松开驾驶员座椅安全带。
+</td>
+</tr>
+<tr>
+<td>发动机催化剂快速预热。
+</td>
+</tr>
+<tr>
+<td rowspan="3">蓄电池保护
+</td>
+<td>刷新充电持续 0.5 至 1 小时，且每行驶约 30 小时进行一次。 刷新充电时将禁用启停系统操作。
+</td>
+</tr>
+<tr>
+<td>怠速停止率高于预定率时，则将禁用启停系统操作。
+</td>
+</tr>
+<tr>
+<td>蓄电池电压降低且蓄电池集成电流值变为阈值或更低时，将禁用启停操作。
+</td>
+</tr>
+<tr>
+<td rowspan="4">舒适性
+</td>
+<td>如果在车外温度高且蒸发器温度高时运行空调，将会禁止启停系统操作。
+</td>
+</tr>
+<tr>
+<td>如果在车外温度低时运行空调，将会禁止启停系统操作。
+</td>
+</tr>
+<tr>
+<td>如果在车外温度低且发动机冷却液温度低时运行加热器，将会禁止启停系统操作。
+</td>
+</tr>
+<tr>
+<td>如果前 DEF 开关和鼓风机开关打开，将会禁止启停系统操作。
+</td>
+</tr>
+<tr>
+<td>ECU 学习
+</td>
+<td>ECU 学习未完成。*
+</td>
+</tr>
+<tr>
+<td>操作
+</td>
+<td>如果在操作方向盘时停止车辆，将会禁止启停系统操作。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>警告控制
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>启停系统停止发动机时，以下操作中的一项可警告驾驶员：鸣响组合仪表总成内的多功能蜂鸣器、使启停指示灯闪烁、显示组合仪表总成内的多信息显示屏、重新起动发动机或阻止发动机重新起动。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">操作
+</th>
+<th class="alcenter">警告控制
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>打开发动机罩。
+</td>
+<td>发动机停机（模式切换为&ldquo;熄火&rdquo;，且将发动机开关置于 OFF 位置，然后置于 ON (IG) 位置后才能重新起动发动机）。
+</td>
+</tr>
+<tr>
+<td class="alleft">换档杆置于 D 的情况下打开驾驶员车门。
+</td>
+<td class="alleft">发动机起动、警告蜂鸣器鸣响且启停指示灯闪烁。
+</td>
+</tr>
+<tr>
+<td>松开驾驶员座椅安全带。
+</td>
+<td>发动机起动。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">e.</div>
+<div class="step2Body">
+<p>发动机停机和重新起动的操作条件
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>如果检测到所有这些条件，发动机可能会停止。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:12%">
+<col style="width:32%">
+<col style="width:55%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter" colspan="2">项目
+</th>
+<th class="alcenter">工作条件
+</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="3">
+<div class="footNote"><p>*1：蓄电池电解液温度变为 -15&deg;C (5&deg;F) 或更低，或 75&deg;C (167&deg;F) 或更高时，禁用控制。 禁用控制且蓄电池电解液温度升至 -10&deg;C (14&deg;F) 或更高或降至 70&deg;C (158&deg;F) 或更低后，执行控制。
+</p><p>*2：关于蓄电池集成电流
+</p><p>在启停系统中，发动机启停 ECU 根据蓄电池状态（充电/放电状态）切换系统控制模式（允许/禁止启停系统控制），以保护蓄电池并确保稳定的发动机重新起动性能。
+</p><p>根据基于蓄电池状态传感器总成信号计算的集成电流值确定蓄电池充电/放电状态。 通过蓄电池状态传感器总成检测到的电流（安培）乘以时间（秒）可得出集成电流值，并以 A-sec 为单位表示。可使用 Global TechStream (GTS) 进行测量。
+</p><p>发动机启停 ECU 根据集成电流值确定是否充电，如果该值为阈值或更像，则禁止启停系统控制，因为蓄电池可能无法起动发动机。 阈值根据蓄电池充电控制状态而变化。
+</p><p>*3：集成电流值变为 -16434 A-sec 或更小时禁止控制以为蓄电池充电，直至值变为 -15444 A-sec 或更大继续控制。
+</p><p>*4：集成电流值变为 -990 A-sec 或更小时禁止控制以为蓄电池充电，直至值变为 0 A-sec 或更大继续控制。
+</p><p>*5：重新起动发动机时，确保适当的制动力以使车辆不会前进。
+</p></div>
+</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td rowspan="21">怠速停止
+</td>
+<td>发动机冷却液温度
+</td>
+<td>40&deg;C 至 105&deg;C（104&deg;F 至 221&deg;F）
+</td>
+</tr>
+<tr>
+<td>AT 油温
+</td>
+<td>25&deg;C 至 111&deg;C（77&deg;F 至 231.8&deg;F）
+</td>
+</tr>
+<tr>
+<td>驾驶员车门
+</td>
+<td>关闭
+</td>
+</tr>
+<tr>
+<td>制动助力器真空
+</td>
+<td>真空在标准范围内（在水平表面，高于 42.5 kPa (0.5 kg/cm <sup>2</sup>, 6.2 psi))
+<br>
+（根据制动主缸液压改变）
+</td>
+</tr>
+<tr>
+<td>启停系统取消开关（电动驻车制动开关总成）
+</td>
+<td>关闭状态
+</td>
+</tr>
+<tr>
+<td>道路坡度
+</td>
+<td>-6&deg; 至 8&deg;
+</td>
+</tr>
+<tr>
+<td>车速
+</td>
+<td>车速从定速变为 0 km/h。
+</td>
+</tr>
+<tr>
+<td>发动机转速
+</td>
+<td>1250 r/min 或更低
+</td>
+</tr>
+<tr>
+<td>换档杆位置
+</td>
+<td>D
+</td>
+</tr>
+<tr>
+<td class="alleft">行驶模式
+</td>
+<td class="alleft">ECO 或 NORMAL 模式
+</td>
+</tr>
+<tr>
+<td>驾驶员座椅安全带
+</td>
+<td>系紧座椅安全带后经过 3 秒或更长时间。
+</td>
+</tr>
+<tr>
+<td>发动机罩
+</td>
+<td>关闭
+</td>
+</tr>
+<tr>
+<td>蓄电池电压
+</td>
+<td>发动机起动时为 7.6 V 或更高。
+</td>
+</tr>
+<tr>
+<td>蓄电池电解液温度
+</td>
+<td>-10&deg;C 至 70&deg;C（14&deg;F 至 158&deg;F）*1
+</td>
+</tr>
+<tr>
+<td>蓄电池集成电流*2
+</td>
+<td>集成电流值满足下列任一条件时：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>-15444 A-sec 或更大：蓄电池充电控制状态为充电控制协同模式、启停独立模式、低温/高温模式或低温模式。*3
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>0 A-sec 或更大：蓄电池充电控制状态为启停限制模式。*4
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td>空调
+</td>
+<td>&ldquo;冷却或暖机&rdquo;或除霜功能不工作时。
+</td>
+</tr>
+<tr>
+<td>ECU 学习
+</td>
+<td>已完成
+</td>
+</tr>
+<tr>
+<td>环境温度
+</td>
+<td>-5&deg;C (23&deg;F) 或更高
+</td>
+</tr>
+<tr>
+<td>转向操作
+</td>
+<td>不工作
+</td>
+</tr>
+<tr>
+<td class="alleft">加速踏板
+</td>
+<td class="alleft">松开加速踏板。
+</td>
+</tr>
+<tr>
+<td class="alleft">制动踏板*5
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>踩下制动踏板。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>制动主缸液压为 1.2 MPa (12.2 kg/cm<sup>2</sup>, 174 psi) 或更高。
+</p>
+<p>（根据纬度改变）
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>如果检测到下列任一条件，发动机将重新起动。
+</p>
+<table summary="">
+<colgroup>
+<col style="width:20%">
+<col style="width:25%">
+<col style="width:54%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter" colspan="2">项目
+</th>
+<th class="alcenter">工作条件
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td rowspan="15">发动机重新起动
+</td>
+<td>制动助力器真空
+</td>
+<td>制动助力器真空不足
+</td>
+</tr>
+<tr>
+<td rowspan="4">空调
+</td>
+<td>空调打开且空调放大器总成计时器计时结束时。
+</td>
+</tr>
+<tr>
+<td>自动鼓风机功能运行且空调放大器总成计时器计时结束时。 否则，发动机启停 ECU 的计时器计时结束。
+</td>
+</tr>
+<tr>
+<td>空调开关或鼓风机开关打开。
+</td>
+</tr>
+<tr>
+<td>蒸发器温度超过阈值（阈值随温度、湿度和太阳辐射量的变化而变化）
+</td>
+</tr>
+<tr>
+<td>启停系统取消开关（电动驻车制动开关总成）
+</td>
+<td>启停系统取消开关（电动驻车制动开关总成）打开。
+</td>
+</tr>
+<tr>
+<td>蓄电池
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>蓄电池电压低于 11.4 V。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>蓄电池集成电流变为阈值或更低。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td>驾驶员车门
+</td>
+<td>打开驾驶员车门。
+</td>
+</tr>
+<tr>
+<td>驾驶员座椅安全带
+</td>
+<td>松开驾驶员座椅安全带。
+</td>
+</tr>
+<tr>
+<td>车速
+</td>
+<td>输入车速信号。
+</td>
+</tr>
+<tr>
+<td>加速踏板
+</td>
+<td>踩下加速踏板。
+</td>
+</tr>
+<tr>
+<td>制动踏板
+</td>
+<td>松开制动踏板。
+</td>
+</tr>
+<tr>
+<td>换档杆
+</td>
+<td>从 D 位置移至其他位置。
+</td>
+</tr>
+<tr>
+<td class="alleft">行驶模式
+</td>
+<td class="alleft">除 ECO 或 NORMAL 模式外
+</td>
+</tr>
+<tr>
+<td>转向操作
+</td>
+<td>方向盘转动 25 度或更多。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">f.</div>
+<div class="step2Body">
+<p>制动保持功能操作期间的怠速停止控制
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>怠速停止状态下制动保持功能运行时，即使松开制动踏板怠速停止状态仍会继续。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item step3HasFigure">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>通过踩下加速踏板，发动机重新起动且制动保持功能取消。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据车辆状态，即使在制动保持期间，可能也不会进行怠速停止。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据车辆状态，制动保持期间发动机可能会重新起动。 在此情况下，由于继续进行制动保持，车辆不会起步。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>启停系统停止发动机期间，如果未满足以下任一工作条件，则制动保持系统将不工作。 如果自动施加了电动驻车制动，则发动机将重新起动。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/Y171400E03.png" alt="Y171400E03" title="Y171400E03">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">3.906,1.479 4.115,1.229</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="line">
+<span class="points">3.917,3.104 4.104,3.333</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="line">
+<span class="points">6.083,4.76 6.271,4.99</span>
+<span class="whiteedge">true</span>
+</span>
+<span class="caption">
+<span class="points">1.021,0.302 1.99,0.51</span>
+<span class="captionSize">0.958,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">车速</span>
+</span>
+<span class="caption">
+<span class="points">0.927,1.229 2.375,1.458</span>
+<span class="captionSize">1.438,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">制动踏板操作 </span>
+</span>
+<span class="caption">
+<span class="points">0.906,2.26 2.688,2.5</span>
+<span class="captionSize">1.771,0.229</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">加速踏板操作 </span>
+</span>
+<span class="caption">
+<span class="points">1.125,2.771 2.417,3.49</span>
+<span class="captionSize">1.281,0.708</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">制动保持期间不兼容启停操作的车型（参见参考） </span>
+</span>
+<span class="caption">
+<span class="points">1.219,4.271 2.396,4.875</span>
+<span class="captionSize">1.167,0.594</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">制动保持期间兼容启停操作的车型 </span>
+</span>
+<span class="caption">
+<span class="points">0.344,3.365 1.042,3.927</span>
+<span class="captionSize">0.688,0.552</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">发动机重新起动/停机操作 </span>
+</span>
+<span class="caption">
+<span class="points">2.76,0.469 3.323,0.677</span>
+<span class="captionSize">0.552,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">0 km/h </span>
+</span>
+<span class="caption">
+<span class="points">2.865,0.844 3.229,1.052</span>
+<span class="captionSize">0.354,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">踩下</span>
+</span>
+<span class="caption">
+<span class="points">2.833,1.438 3.198,1.646</span>
+<span class="captionSize">0.354,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">松开</span>
+</span>
+<span class="caption">
+<span class="points">2.865,1.833 3.229,2.042</span>
+<span class="captionSize">0.354,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">踩下</span>
+</span>
+<span class="caption">
+<span class="points">2.865,2.396 3.229,2.604</span>
+<span class="captionSize">0.354,0.198</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">松开</span>
+</span>
+<span class="caption">
+<span class="points">2.594,3.01 3.26,3.365</span>
+<span class="captionSize">0.656,0.344</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">重新起动 </span>
+</span>
+<span class="caption">
+<span class="points">2.802,3.74 3.302,3.969</span>
+<span class="captionSize">0.49,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">停止 </span>
+</span>
+<span class="caption">
+<span class="points">2.615,4.198 3.219,4.583</span>
+<span class="captionSize">0.594,0.375</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">重新起动 </span>
+</span>
+<span class="caption">
+<span class="points">2.813,4.906 3.313,5.135</span>
+<span class="captionSize">0.49,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">停止 </span>
+</span>
+<span class="caption">
+<span class="points">4.135,1.104 5.292,1.333</span>
+<span class="captionSize">1.146,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">true</span>
+<span class="captionText">制动保持操作 </span>
+</span>
+<span class="caption">
+<span class="points">4.125,3.365 6.156,3.646</span>
+<span class="captionSize">2.021,0.271</span>
+<span class="fontsize">10</span>
+<span class="filled">true</span>
+<span class="captionText">松开制动踏板时发动机重新起动 </span>
+</span>
+<span class="caption">
+<span class="points">4.052,4.594 6.083,4.823</span>
+<span class="captionSize">2.021,0.219</span>
+<span class="fontsize">10</span>
+<span class="filled">true</span>
+<span class="captionText">踩下加速踏板时发动机重新起动 </span>
+</span>
+</div>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">功能
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>设定启停系统
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>通过使用方向盘装饰盖开关总成上的方向盘装饰盖开关和组合仪表总成上的多信息显示屏或通过按住启停系统取消开关（电动驻车制动开关总成），可在 Standard 和 Extended（启停系统享有优先权）之间切换空调系统打开时因启停控制导致的发动机停机操作时间。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">诊断
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>发动机启停 ECU 检测到故障且 CAN 通信正常时，发动机启停 ECU 记录与故障相关的信息。 此外，组合仪表总成内的启停指示灯闪烁以告知驾驶员 CAN 通信正常。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>发动机启停 ECU 还会存储与故障相关的诊断故障码 (DTC)。 可使用 Global TechStream (GTS) 读取 DTC。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

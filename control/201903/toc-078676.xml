@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="NM35K0CC"><servcat id="_51"><name>发动机/混合动力系统</name><section id="_078676">
+<name>巡航控制系统</name>
+<ttl id="_0381633">
+<name>动态雷达巡航控制系统</name>
+<para category="F" id="NM100000001G12R" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001G12S" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001G12T" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001G12U" term-id-from="001">
+<name>巡航控制系统</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001G12Q" term-id-from="001">
+<name>毫米波雷达传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001G12X" term-id-from="001">
+<name>前向识别摄像机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001G12W" term-id-from="001">
+<name>摄像机加热器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001G12Y" term-id-from="001">
+<name>巡航控制主开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001G12V" term-id-from="001">
+<name>组合仪表</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0381634">
+<name>车道偏离警示系统（带转向控制）</name>
+<para category="F" id="NM100000001G12Z" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001G132" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001G131" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001G134" term-id-from="001">
+<name>车道偏离警示控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001G130" term-id-from="001">
+<name>前向识别摄像机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001G135" term-id-from="001">
+<name>摄像机加热器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001G133" term-id-from="001">
+<name>组合仪表</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

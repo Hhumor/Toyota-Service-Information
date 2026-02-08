@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="NM35K0CC"><servcat id="_51"><name>发动机/混合动力系统</name><section id="_079483">
+<name>A25A-FKS（燃油系统）</name>
+<ttl id="_0385282">
+<name>燃油系统</name>
+<para category="F" id="NM100000001GLFI" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLFQ" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLFK" term-id-from="001">
+<name>无回流燃油控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLFJ" term-id-from="001">
+<name>D-4S 系统</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLFR" term-id-from="001">
+<name>燃油箱</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLFS" term-id-from="001">
+<name>燃油泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLFL" term-id-from="001">
+<name>燃油泵（高压）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLFM" term-id-from="001">
+<name>燃油输油管（直接喷射）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLFN" term-id-from="001">
+<name>燃油输油管（进气口喷射）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLFO" term-id-from="001">
+<name>喷油器（直接喷射）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001GLFP" term-id-from="001">
+<name>喷油器（进气口喷射）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

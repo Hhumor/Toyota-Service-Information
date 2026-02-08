@@ -1,0 +1,4587 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tmc-service-toc SYSTEM "../dtd/toc.dtd">
+<tmc-service-toc>
+<pub id="NM35K0CC">
+<servcat id="_V1">
+<name>概述</name>
+<section id="_080567">
+<name>导言</name>
+<ttl id="_0390573">
+<name>特征</name>
+<para id="NM100000001HGBC" category="F" term-id-from="001">
+<name>车型代码和车型阵容</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGBD" category="F" term-id-from="001">
+<name>外观</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGBE" category="F" term-id-from="001">
+<name>性能</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGBF" category="F" term-id-from="001">
+<name>设备</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_080568">
+<name>保养规格</name>
+<ttl id="_0390574">
+<name>主要技术规格</name>
+<para id="NM100000001HGBR" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="_51">
+<name>发动机/混合动力系统</name>
+<section id="_079512">
+<name>A25A-FKS（发动机控制系统）</name>
+<ttl id="_0385566">
+<name>SFI 系统</name>
+<para id="NM100000001GMSF" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSU" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSV" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSW" category="F" term-id-from="001">
+<name>发动机控制系统</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMS7" category="F" term-id-from="001">
+<name>直接喷射 4 行程汽油发动机高级版顺序多点燃油喷射 (D-4S SFI)</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSI" category="F" term-id-from="001">
+<name>电子点火提前 (ESA) 控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMS5" category="F" term-id-from="001">
+<name>智能电子节气门控制系统 (ETCS-i) 控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMS8" category="F" term-id-from="001">
+<name>双 VVT-i 控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMS6" category="F" term-id-from="001">
+<name>燃油泵控制（低压泵）</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSG" category="F" term-id-from="001">
+<name>燃油泵控制（高压泵）</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSN" category="F" term-id-from="001">
+<name>起动机控制（起动保持功能）</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSX" category="F" term-id-from="001">
+<name>行车起步辅助控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSO" category="F" term-id-from="001">
+<name>可变机油泵控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMST" category="F" term-id-from="001">
+<name>发动机悬置控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSD" category="F" term-id-from="001">
+<name>质量空气流量计</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSJ" category="F" term-id-from="001">
+<name>曲轴位置传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSK" category="F" term-id-from="001">
+<name>凸轮轴位置传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMS9" category="F" term-id-from="001">
+<name>加速踏板传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSA" category="F" term-id-from="001">
+<name>节气门位置传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSL" category="F" term-id-from="001">
+<name>空燃比传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSM" category="F" term-id-from="001">
+<name>爆震控制传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSE" category="F" term-id-from="001">
+<name>燃油压力传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSP" category="F" term-id-from="001">
+<name>机油压力传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSQ" category="F" term-id-from="001">
+<name>真空传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSR" category="F" term-id-from="001">
+<name>凸轮轴控制电动机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSH" category="F" term-id-from="001">
+<name>凸轮轴正时机油控制电磁阀</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSS" category="F" term-id-from="001">
+<name>机油压力控制阀</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSB" category="F" term-id-from="001">
+<name>点火线圈</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMSC" category="F" term-id-from="001">
+<name>火花塞</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079517">
+<name>A25B-FXS（发动机控制系统）</name>
+<ttl id="_0385571">
+<name>SFI 系统</name>
+<para id="NM100000001GMUE" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUF" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUG" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMU4" category="F" term-id-from="001">
+<name>发动机控制系统</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMU7" category="F" term-id-from="001">
+<name>直接喷射 4 行程汽油发动机高级版顺序多点燃油喷射 (D-4S SFI)</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUJ" category="F" term-id-from="001">
+<name>电子点火提前 (ESA) 控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMU5" category="F" term-id-from="001">
+<name>智能电子节气门控制系统 (ETCS-i) 控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMU8" category="F" term-id-from="001">
+<name>双 VVT-i 控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMU6" category="F" term-id-from="001">
+<name>燃油泵控制（低压泵）</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUH" category="F" term-id-from="001">
+<name>燃油泵控制（高压泵）</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUO" category="F" term-id-from="001">
+<name>可变机油泵控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUC" category="F" term-id-from="001">
+<name>质量空气流量计</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUK" category="F" term-id-from="001">
+<name>曲轴位置传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUL" category="F" term-id-from="001">
+<name>凸轮轴位置传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMU9" category="F" term-id-from="001">
+<name>节气门位置传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUM" category="F" term-id-from="001">
+<name>空燃比传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUN" category="F" term-id-from="001">
+<name>爆震控制传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUD" category="F" term-id-from="001">
+<name>燃油压力传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUP" category="F" term-id-from="001">
+<name>机油压力传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUQ" category="F" term-id-from="001">
+<name>真空传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUR" category="F" term-id-from="001">
+<name>凸轮轴控制电动机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUI" category="F" term-id-from="001">
+<name>凸轮轴正时机油控制电磁阀</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUS" category="F" term-id-from="001">
+<name>机油压力控制阀</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUA" category="F" term-id-from="001">
+<name>点火线圈</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GMUB" category="F" term-id-from="001">
+<name>火花塞</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079464">
+<name>混合动力/蓄电池控制系统</name>
+<ttl id="_0385109">
+<name>混合动力控制系统</name>
+<para id="NM100000001GKFX" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GKFY" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GKFZ" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GKG0" category="F" term-id-from="001">
+<name>THS-II 控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GKFU" category="F" term-id-from="001">
+<name>THS-II 控制</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GKFS" category="F" term-id-from="001">
+<name>带转换器的逆变器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GKFV" category="F" term-id-from="001">
+<name>增压转换器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GKFW" category="F" term-id-from="001">
+<name>逆变器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GKFT" category="F" term-id-from="001">
+<name>逆变器水泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GKFQ" category="F" term-id-from="001">
+<name>加速踏板传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GKFR" category="F" term-id-from="001">
+<name>电源电缆</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0385110">
+<name>混合动力蓄电池系统</name>
+<para id="NM100000001GKG5" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GKG1" category="F" term-id-from="001">
+<name>混合动力车辆控制 ECU</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GKG2" category="F" term-id-from="001">
+<name>HV 蓄电池</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GKG3" category="F" term-id-from="001">
+<name>HV 蓄电池接线盒</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GKG4" category="F" term-id-from="001">
+<name>蓄电池智能单元</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079482">
+<name>A25A-FKS（发动机机械部分）</name>
+<ttl id="_0385281">
+<name>发动机单元</name>
+<para id="NM100000001GLFH" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLEY" category="F" term-id-from="001">
+<name>气缸盖罩</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLEZ" category="F" term-id-from="001">
+<name>气缸盖</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLF9" category="F" term-id-from="001">
+<name>气缸盖衬垫</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLF0" category="F" term-id-from="001">
+<name>气缸体</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLF1" category="F" term-id-from="001">
+<name>曲轴箱</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLF2" category="F" term-id-from="001">
+<name>活塞</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLF8" category="F" term-id-from="001">
+<name>连杆和连杆轴承</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLF4" category="F" term-id-from="001">
+<name>曲轴和轴承</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFA" category="F" term-id-from="001">
+<name>平衡轴</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLF3" category="F" term-id-from="001">
+<name>气门机构</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLF6" category="F" term-id-from="001">
+<name>凸轮轴</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFD" category="F" term-id-from="001">
+<name>凸轮轴控制执行器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFE" category="F" term-id-from="001">
+<name>VVT-i 控制器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLF7" category="F" term-id-from="001">
+<name>正时链条和链条张紧器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLF5" category="F" term-id-from="001">
+<name>气门间隙调节器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFB" category="F" term-id-from="001">
+<name>正时链条盖</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFF" category="F" term-id-from="001">
+<name>真空泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFC" category="F" term-id-from="001">
+<name>多楔带</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFG" category="F" term-id-from="001">
+<name>发动机机油油位传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079488">
+<name>A25B-FXS（发动机机械部分）</name>
+<ttl id="_0385289">
+<name>发动机单元</name>
+<para id="NM100000001GLH5" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGO" category="F" term-id-from="001">
+<name>气缸盖罩</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGP" category="F" term-id-from="001">
+<name>气缸盖</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGZ" category="F" term-id-from="001">
+<name>气缸盖衬垫</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGQ" category="F" term-id-from="001">
+<name>气缸体</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGR" category="F" term-id-from="001">
+<name>曲轴箱</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGS" category="F" term-id-from="001">
+<name>活塞</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGY" category="F" term-id-from="001">
+<name>连杆和连杆轴承</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGU" category="F" term-id-from="001">
+<name>曲轴和轴承</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLH0" category="F" term-id-from="001">
+<name>平衡轴</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGT" category="F" term-id-from="001">
+<name>气门机构</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGW" category="F" term-id-from="001">
+<name>凸轮轴</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLH2" category="F" term-id-from="001">
+<name>凸轮轴控制执行器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLH3" category="F" term-id-from="001">
+<name>VVT-i 控制器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGX" category="F" term-id-from="001">
+<name>正时链条和链条张紧器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGV" category="F" term-id-from="001">
+<name>气门间隙调节器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLH1" category="F" term-id-from="001">
+<name>正时链条盖</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLH4" category="F" term-id-from="001">
+<name>发动机机油油位传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079483">
+<name>A25A-FKS（燃油系统）</name>
+<ttl id="_0385282">
+<name>燃油系统</name>
+<para id="NM100000001GLFI" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFQ" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFK" category="F" term-id-from="001">
+<name>无回流燃油控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFJ" category="F" term-id-from="001">
+<name>D-4S 系统</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFR" category="F" term-id-from="001">
+<name>燃油箱</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFS" category="F" term-id-from="001">
+<name>燃油泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFL" category="F" term-id-from="001">
+<name>燃油泵（高压）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFM" category="F" term-id-from="001">
+<name>燃油输油管（直接喷射）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFN" category="F" term-id-from="001">
+<name>燃油输油管（进气口喷射）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFO" category="F" term-id-from="001">
+<name>喷油器（直接喷射）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFP" category="F" term-id-from="001">
+<name>喷油器（进气口喷射）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079489">
+<name>A25B-FXS（燃油系统）</name>
+<ttl id="_0385290">
+<name>燃油系统</name>
+<para id="NM100000001GLH6" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLH7" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLH9" category="F" term-id-from="001">
+<name>无回流燃油控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLH8" category="F" term-id-from="001">
+<name>D-4S 系统</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHA" category="F" term-id-from="001">
+<name>燃油箱</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHG" category="F" term-id-from="001">
+<name>燃油泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHB" category="F" term-id-from="001">
+<name>燃油泵（高压）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHC" category="F" term-id-from="001">
+<name>燃油输油管（直接喷射）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHD" category="F" term-id-from="001">
+<name>燃油输油管（进气口喷射）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHE" category="F" term-id-from="001">
+<name>喷油器（直接喷射）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHF" category="F" term-id-from="001">
+<name>喷油器（进气口喷射）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079513">
+<name>A25A-FKS（排放控制系统）</name>
+<ttl id="_0386698">
+<name>废气再循环系统</name>
+<para id="NM100000001GT4Q" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT4R" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT4S" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT4T" category="F" term-id-from="001">
+<name>EGR 控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT4U" category="F" term-id-from="001">
+<name>EGR 阀和 EGR 冷却器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0386699">
+<name>窜气通风系统</name>
+<para id="NM100000001GT4X" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT4Y" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT4Z" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT4V" category="F" term-id-from="001">
+<name>通风箱</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT4W" category="F" term-id-from="001">
+<name>PCV 阀</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0386700">
+<name>燃油蒸汽排放控制系统（带炭罐泵模块）</name>
+<para id="NM100000001GT50" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT51" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT52" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT53" category="F" term-id-from="001">
+<name>燃油蒸汽排放控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT54" category="F" term-id-from="001">
+<name>燃油进油口（新鲜空气入口）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT55" category="F" term-id-from="001">
+<name>炭罐泵模块</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT56" category="F" term-id-from="001">
+<name>清污 VSV</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0386701">
+<name>燃油蒸汽排放控制系统（不带炭罐泵模块）</name>
+<para id="NM100000001GT57" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT58" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT59" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT5A" category="F" term-id-from="001">
+<name>燃油蒸汽排放控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT5B" category="F" term-id-from="001">
+<name>炭罐</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT5C" category="F" term-id-from="001">
+<name>清污 VSV</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0386702">
+<name>废气排放控制系统</name>
+<para id="NM100000001GT5D" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT5E" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT5F" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT5G" category="F" term-id-from="001">
+<name>废气排放控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT5H" category="F" term-id-from="001">
+<name>三元催化转化器 (TWC)</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079518">
+<name>A25B-FXS（排放控制系统）</name>
+<ttl id="_0386712">
+<name>废气再循环系统</name>
+<para id="NM100000001GT97" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT98" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT99" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9A" category="F" term-id-from="001">
+<name>EGR 控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9B" category="F" term-id-from="001">
+<name>EGR 阀和 EGR 冷却器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0386713">
+<name>窜气通风系统</name>
+<para id="NM100000001GT9E" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9F" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9G" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9C" category="F" term-id-from="001">
+<name>通风箱</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9D" category="F" term-id-from="001">
+<name>PCV 阀</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0386714">
+<name>燃油蒸汽排放控制系统（带炭罐泵模块）</name>
+<para id="NM100000001GT9H" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9I" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9J" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9K" category="F" term-id-from="001">
+<name>燃油蒸汽排放控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9L" category="F" term-id-from="001">
+<name>燃油蒸汽防漏阀</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9M" category="F" term-id-from="001">
+<name>燃油加注口盖互锁装置</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9N" category="F" term-id-from="001">
+<name>燃油加注口盖开启器门控灯开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9O" category="F" term-id-from="001">
+<name>多信息显示屏</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9P" category="F" term-id-from="001">
+<name>炭罐泵模块</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9Q" category="F" term-id-from="001">
+<name>清污 VSV</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0386717">
+<name>燃油蒸汽排放控制系统（不带炭罐泵模块）</name>
+<para id="NM100000001GT9Y" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9Z" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GTA0" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GTA1" category="F" term-id-from="001">
+<name>燃油蒸汽排放控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GTA2" category="F" term-id-from="001">
+<name>炭罐</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GTA3" category="F" term-id-from="001">
+<name>清污 VSV</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0386715">
+<name>废气排放控制系统</name>
+<para id="NM100000001GT9R" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9S" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9T" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9U" category="F" term-id-from="001">
+<name>废气排放控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GT9V" category="F" term-id-from="001">
+<name>三元催化转化器 (TWC)</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079484">
+<name>A25A-FKS（进气/排气系统）</name>
+<ttl id="_0385283">
+<name>进气系统</name>
+<para id="NM100000001GLFU" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFV" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFY" category="F" term-id-from="001">
+<name>空气滤清器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFX" category="F" term-id-from="001">
+<name>进气歧管</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFW" category="F" term-id-from="001">
+<name>节气门体</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0385284">
+<name>排气系统</name>
+<para id="NM100000001GLG0" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLG1" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLFZ" category="F" term-id-from="001">
+<name>排气歧管</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLG2" category="F" term-id-from="001">
+<name>排气管</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079490">
+<name>A25B-FXS（进气/排气系统）</name>
+<ttl id="_0385291">
+<name>进气系统</name>
+<para id="NM100000001GLHH" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHI" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHJ" category="F" term-id-from="001">
+<name>空气滤清器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHL" category="F" term-id-from="001">
+<name>进气歧管</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHK" category="F" term-id-from="001">
+<name>节气门体</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0385292">
+<name>排气系统</name>
+<para id="NM100000001GLHN" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHO" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHM" category="F" term-id-from="001">
+<name>排气歧管</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHP" category="F" term-id-from="001">
+<name>排气管</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079485">
+<name>A25A-FKS（冷却系统）</name>
+<ttl id="_0385285">
+<name>冷却风扇系统</name>
+<para id="NM100000001GLG3" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLG6" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLG7" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLG4" category="F" term-id-from="001">
+<name>冷却风扇控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLG5" category="F" term-id-from="001">
+<name>冷却风扇和冷却风扇罩</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0385286">
+<name>冷却液流</name>
+<para id="NM100000001GLGD" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGE" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGF" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLG8" category="F" term-id-from="001">
+<name>可变冷却控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLG9" category="F" term-id-from="001">
+<name>水泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGB" category="F" term-id-from="001">
+<name>节温器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGC" category="F" term-id-from="001">
+<name>流量切断阀</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGA" category="F" term-id-from="001">
+<name>散热器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079491">
+<name>A25B-FXS（冷却系统）</name>
+<ttl id="_0385293">
+<name>冷却风扇系统</name>
+<para id="NM100000001GLHQ" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHT" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHU" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHR" category="F" term-id-from="001">
+<name>冷却风扇控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHS" category="F" term-id-from="001">
+<name>冷却风扇和冷却风扇罩</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0385294">
+<name>冷却液流</name>
+<para id="NM100000001GLI0" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLI1" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLI2" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHV" category="F" term-id-from="001">
+<name>可变冷却控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHW" category="F" term-id-from="001">
+<name>水泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHY" category="F" term-id-from="001">
+<name>节温器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHZ" category="F" term-id-from="001">
+<name>流量切断阀</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLHX" category="F" term-id-from="001">
+<name>散热器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079486">
+<name>A25A-FKS（润滑系统）</name>
+<ttl id="_0385287">
+<name>润滑系统</name>
+<para id="NM100000001GLGK" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGL" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGJ" category="F" term-id-from="001">
+<name>机油泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGI" category="F" term-id-from="001">
+<name>机油喷嘴</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGH" category="F" term-id-from="001">
+<name>机油滤清器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLGM" category="F" term-id-from="001">
+<name>机油冷却器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079492">
+<name>A25B-FXS（润滑系统）</name>
+<ttl id="_0385295">
+<name>润滑系统</name>
+<para id="NM100000001GLI7" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLI8" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLI6" category="F" term-id-from="001">
+<name>机油泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLI5" category="F" term-id-from="001">
+<name>机油喷嘴</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLI4" category="F" term-id-from="001">
+<name>机油滤清器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLI9" category="F" term-id-from="001">
+<name>机油冷却器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079487">
+<name>A25A-FKS（起动系统）</name>
+<ttl id="_0385288">
+<name>起动系统</name>
+<para id="NM100000001GLGN" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_078676">
+<name>巡航控制系统</name>
+<ttl id="_0381633">
+<name>动态雷达巡航控制系统</name>
+<para id="NM100000001G12R" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001G12S" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001G12T" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001G12U" category="F" term-id-from="001">
+<name>巡航控制系统</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001G12Q" category="F" term-id-from="001">
+<name>毫米波雷达传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001G12X" category="F" term-id-from="001">
+<name>前向识别摄像机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001G12W" category="F" term-id-from="001">
+<name>摄像机加热器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001G12Y" category="F" term-id-from="001">
+<name>巡航控制主开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001G12V" category="F" term-id-from="001">
+<name>组合仪表</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0381634">
+<name>车道偏离警示系统（带转向控制）</name>
+<para id="NM100000001G12Z" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001G132" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001G131" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001G134" category="F" term-id-from="001">
+<name>车道偏离警示控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001G130" category="F" term-id-from="001">
+<name>前向识别摄像机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001G135" category="F" term-id-from="001">
+<name>摄像机加热器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001G133" category="F" term-id-from="001">
+<name>组合仪表</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079514">
+<name>A25A-FKS（怠速停止控制）</name>
+<ttl id="_0387413">
+<name>启停系统</name>
+<para id="NM100000001GX0R" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GX0S" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GX0T" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GX0U" category="F" term-id-from="001">
+<name>怠速停止控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GX0X" category="F" term-id-from="001">
+<name>带电磁阀的油泵控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GX0V" category="F" term-id-from="001">
+<name>环保驾驶车辆转换器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GX0Y" category="F" term-id-from="001">
+<name>带电磁阀的油泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GX0W" category="F" term-id-from="001">
+<name>组合仪表</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="_52">
+<name>传动系统</name>
+<section id="_079777">
+<name>UB80E（自动变速器/传动桥）</name>
+<ttl id="_0387096">
+<name>自动传动桥系统</name>
+<para id="NM100000001GV2W" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2Y" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2Z" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV30" category="F" term-id-from="001">
+<name>自动变速器控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2Q" category="F" term-id-from="001">
+<name>壳</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2G" category="F" term-id-from="001">
+<name>变矩器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2X" category="F" term-id-from="001">
+<name>行星齿轮</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2S" category="F" term-id-from="001">
+<name>差速器预转矩机构</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2T" category="F" term-id-from="001">
+<name>离合器和制动器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2I" category="F" term-id-from="001">
+<name>离心液压取消机构</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2P" category="F" term-id-from="001">
+<name>中间轴主动齿轮</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2U" category="F" term-id-from="001">
+<name>ATF 加热器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2H" category="F" term-id-from="001">
+<name>油泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2N" category="F" term-id-from="001">
+<name>ATF 加注程序</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2R" category="F" term-id-from="001">
+<name>变速器阀体</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2J" category="F" term-id-from="001">
+<name>换档电磁阀</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2K" category="F" term-id-from="001">
+<name>ATF 温度传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2L" category="F" term-id-from="001">
+<name>变速器转速传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2V" category="F" term-id-from="001">
+<name>驻车锁止机构</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2O" category="F" term-id-from="001">
+<name>驻车档/空档位置开关和变速器控制开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV2M" category="F" term-id-from="001">
+<name>换档控制</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0387097">
+<name>换档锁止系统</name>
+<para id="NM100000001GV31" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV32" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV33" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV34" category="F" term-id-from="001">
+<name>换档锁止机构</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079778">
+<name>P710（混合动力变速器/传动桥）</name>
+<ttl id="_0387098">
+<name>混合动力传动桥系统</name>
+<para id="NM100000001GV36" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3H" category="F" term-id-from="001">
+<name>顺序换档</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV37" category="F" term-id-from="001">
+<name>壳</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV38" category="F" term-id-from="001">
+<name>传动桥减振器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV39" category="F" term-id-from="001">
+<name>复合齿轮装置</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3A" category="F" term-id-from="001">
+<name>动力分配行星齿轮</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3B" category="F" term-id-from="001">
+<name>电动机减速行星齿轮机构</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3C" category="F" term-id-from="001">
+<name>MG1 和 MG2</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3D" category="F" term-id-from="001">
+<name>差速器预转矩机构</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3E" category="F" term-id-from="001">
+<name>油泵机构</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3F" category="F" term-id-from="001">
+<name>冷却系统</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3G" category="F" term-id-from="001">
+<name>甩油式润滑机构</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3I" category="F" term-id-from="001">
+<name>驻车锁止机构</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3J" category="F" term-id-from="001">
+<name>换档杆位置传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3K" category="F" term-id-from="001">
+<name>换档杆</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3L" category="F" term-id-from="001">
+<name>变速器控制开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0387099">
+<name>换档锁止系统</name>
+<para id="NM100000001GV3M" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3P" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3N" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3O" category="F" term-id-from="001">
+<name>换档锁止控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079898">
+<name>半轴/传动轴</name>
+<ttl id="_0387727">
+<name>半轴系统</name>
+<para id="NM100000001GZ26" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079779">
+<name>车桥和差速器</name>
+<ttl id="_0387100">
+<name>车桥系统</name>
+<para id="NM100000001GV3Q" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="_53">
+<name>悬架</name>
+<section id="_079780">
+<name>悬架控制</name>
+<ttl id="_0387102">
+<name>自适应可调悬架系统</name>
+<para id="NM100000001GV3R" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3S" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3T" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3U" category="F" term-id-from="001">
+<name>自适应可调悬架控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3W" category="F" term-id-from="001">
+<name>减振器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV3V" category="F" term-id-from="001">
+<name>加速度传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079781">
+<name>前悬架</name>
+<ttl id="_0387103">
+<name>前悬架系统</name>
+<para id="NM100000001GV45" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV43" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV42" category="F" term-id-from="001">
+<name>悬架支座和螺旋弹簧</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV46" category="F" term-id-from="001">
+<name>减振器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV40" category="F" term-id-from="001">
+<name>悬架臂</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV41" category="F" term-id-from="001">
+<name>稳定杆</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV44" category="F" term-id-from="001">
+<name>悬架横梁</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079782">
+<name>后悬架</name>
+<ttl id="_0387104">
+<name>后悬架系统</name>
+<para id="NM100000001GV4B" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV4C" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV4A" category="F" term-id-from="001">
+<name>悬架支座</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV47" category="F" term-id-from="001">
+<name>螺旋弹簧和减振器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV48" category="F" term-id-from="001">
+<name>悬架臂</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV49" category="F" term-id-from="001">
+<name>稳定杆</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV4D" category="F" term-id-from="001">
+<name>悬架横梁</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_078674">
+<name>轮胎压力监控</name>
+<ttl id="_0381636">
+<name>轮胎压力警告系统</name>
+<para id="NM100000001G13A" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001G13B" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001G13C" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001G13D" category="F" term-id-from="001">
+<name>轮胎压力警告控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001G139" category="F" term-id-from="001">
+<name>轮胎压力警告阀和发射器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_078675">
+<name>轮胎/车轮</name>
+<ttl id="_0381637">
+<name>轮胎和车轮系统</name>
+<para id="NM100000001G13E" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="_54">
+<name>制动</name>
+<section id="_079357">
+<name>制动控制/动态控制系统</name>
+<ttl id="_0384806">
+<name>制动控制系统（HV 车型）</name>
+<para id="NM100000001GIBI" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBJ" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBK" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBL" category="F" term-id-from="001">
+<name>制动控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBM" category="F" term-id-from="001">
+<name>防抱死制动系统 (ABS)</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBN" category="F" term-id-from="001">
+<name>电子制动力分配 (EBD)</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBO" category="F" term-id-from="001">
+<name>制动辅助</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBP" category="F" term-id-from="001">
+<name>牵引力控制 (TRC)</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBQ" category="F" term-id-from="001">
+<name>车辆稳定性控制 (VSC)</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBS" category="F" term-id-from="001">
+<name>上坡起步辅助控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIC2" category="F" term-id-from="001">
+<name>制动保持</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBR" category="F" term-id-from="001">
+<name>带 EPS 协同控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICQ" category="F" term-id-from="001">
+<name>紧急制动信号</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIC3" category="F" term-id-from="001">
+<name>二次碰撞制动</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBX" category="F" term-id-from="001">
+<name>转速传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBZ" category="F" term-id-from="001">
+<name>转向角传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBW" category="F" term-id-from="001">
+<name>制动踏板行程传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIC4" category="F" term-id-from="001">
+<name>刹车灯开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBY" category="F" term-id-from="001">
+<name>空气囊 ECU 总成</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBU" category="F" term-id-from="001">
+<name>行程模拟器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBV" category="F" term-id-from="001">
+<name>制动助力器泵</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIC1" category="F" term-id-from="001">
+<name>VSC OFF 开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIBT" category="F" term-id-from="001">
+<name>制动控制</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIC0" category="F" term-id-from="001">
+<name>指示灯/警告灯/多功能显示屏</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0384807">
+<name>制动控制系统（汽油车型）</name>
+<para id="NM100000001GICG" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICH" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICI" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICJ" category="F" term-id-from="001">
+<name>制动控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIC5" category="F" term-id-from="001">
+<name>防抱死制动系统 (ABS)</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIC6" category="F" term-id-from="001">
+<name>电子制动力分配 (EBD)</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIC7" category="F" term-id-from="001">
+<name>制动辅助</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIC8" category="F" term-id-from="001">
+<name>牵引力控制 (TRC)</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIC9" category="F" term-id-from="001">
+<name>车辆稳定性控制 (VSC)</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICE" category="F" term-id-from="001">
+<name>上坡起步辅助控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICM" category="F" term-id-from="001">
+<name>制动保持</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICD" category="F" term-id-from="001">
+<name>带 EPS 协同控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICR" category="F" term-id-from="001">
+<name>紧急制动信号</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICF" category="F" term-id-from="001">
+<name>二次碰撞制动</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICO" category="F" term-id-from="001">
+<name>转速传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICN" category="F" term-id-from="001">
+<name>转向角传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICP" category="F" term-id-from="001">
+<name>刹车灯开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICA" category="F" term-id-from="001">
+<name>空气囊 ECU 总成</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICC" category="F" term-id-from="001">
+<name>制动执行器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICB" category="F" term-id-from="001">
+<name>VSC OFF 开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICK" category="F" term-id-from="001">
+<name>制动控制</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICL" category="F" term-id-from="001">
+<name>指示灯/警告灯/多功能显示屏</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079358">
+<name>制动系统（其他）</name>
+<ttl id="_0384808">
+<name>制动系统（HV 车型）</name>
+<para id="NM100000001GICS" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICT" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICU" category="F" term-id-from="001">
+<name>制动主缸</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0384809">
+<name>制动系统（汽油车型）</name>
+<para id="NM100000001GICV" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079359">
+<name>制动器（前轮）</name>
+<ttl id="_0384810">
+<name>前轮制动器</name>
+<para id="NM100000001GICW" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079360">
+<name>制动器（后轮）</name>
+<ttl id="_0384811">
+<name>后轮制动器</name>
+<para id="NM100000001GICX" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079361">
+<name>驻车制动系统</name>
+<ttl id="_0384812">
+<name>电动驻车制动系统（HV 车型）</name>
+<para id="NM100000001GID2" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GID3" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GID4" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICY" category="F" term-id-from="001">
+<name>电动驻车制动控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GID0" category="F" term-id-from="001">
+<name>驻车制动执行器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GICZ" category="F" term-id-from="001">
+<name>制动器制动钳</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GID1" category="F" term-id-from="001">
+<name>驻车制动开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GID5" category="F" term-id-from="001">
+<name>指示灯/警告灯/多功能显示屏</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0384813">
+<name>电动驻车制动系统（汽油车型）</name>
+<para id="NM100000001GID6" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GID7" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GID8" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GID9" category="F" term-id-from="001">
+<name>电动驻车制动控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIDA" category="F" term-id-from="001">
+<name>驻车制动执行器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIDB" category="F" term-id-from="001">
+<name>制动器制动钳</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIDC" category="F" term-id-from="001">
+<name>驻车制动开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIDD" category="F" term-id-from="001">
+<name>指示灯/警告灯/多功能显示屏</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="_55">
+<name>转向</name>
+<section id="_079899">
+<name>助力系统</name>
+<ttl id="_0387728">
+<name>动力转向系统</name>
+<para id="NM100000001GZ29" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2C" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2D" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2E" category="F" term-id-from="001">
+<name>动力转向控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ27" category="F" term-id-from="001">
+<name>转向机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ28" category="F" term-id-from="001">
+<name>扭矩传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2A" category="F" term-id-from="001">
+<name>动力转向电动机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2B" category="F" term-id-from="001">
+<name>减速机构</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079900">
+<name>转向柱</name>
+<ttl id="_0387729">
+<name>转向锁止系统</name>
+<para id="NM100000001GZ2F" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2H" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2I" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2G" category="F" term-id-from="001">
+<name>转向锁止控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0387730">
+<name>加热式方向盘系统</name>
+<para id="NM100000001GZ2L" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2M" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2N" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2J" category="F" term-id-from="001">
+<name>加热式方向盘控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2K" category="F" term-id-from="001">
+<name>方向盘加热器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0387731">
+<name>转向柱系统</name>
+<para id="NM100000001GZ2O" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2P" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2Q" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2R" category="F" term-id-from="001">
+<name>电动倾斜和电动伸缩系统</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2S" category="F" term-id-from="001">
+<name>手动倾斜和伸缩机构</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2T" category="F" term-id-from="001">
+<name>电动倾斜和伸缩系统</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2U" category="F" term-id-from="001">
+<name>转向中间轴</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZ2V" category="F" term-id-from="001">
+<name>能量吸收机构</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="_56">
+<name>音频/视频/车载通信系统</name>
+<section id="_079784">
+<name>音频/视频系统</name>
+<ttl id="_0387115">
+<name>音频和视频系统</name>
+<para id="NM100000001GV64" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV65" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV67" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV66" category="F" term-id-from="001">
+<name>音响控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV63" category="F" term-id-from="001">
+<name>蓝牙音频控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV68" category="F" term-id-from="001">
+<name>蓝牙免提控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079785">
+<name>导航/多信息显示屏</name>
+<ttl id="_0387116">
+<name>导航系统/多信息系统</name>
+<para id="NM100000001GV69" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV6A" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV6B" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV6C" category="F" term-id-from="001">
+<name>导航/多信息</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079786">
+<name>车载通信系统</name>
+<ttl id="_0387117">
+<name>车载通信系统 (G-BOOK)</name>
+<para id="NM100000001GV6E" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV6F" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV6G" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV6H" category="F" term-id-from="001">
+<name>G-BOOK 服务</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GV6I" category="F" term-id-from="001">
+<name>紧急救援呼叫开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_080337">
+<name>驻车辅助/监视系统</name>
+<ttl id="_0389675">
+<name>丰田驻车辅助传感器系统</name>
+<para id="NM100000001HA2O" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA2P" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA2Q" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA2K" category="F" term-id-from="001">
+<name>丰田驻车辅助传感器控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA2L" category="F" term-id-from="001">
+<name>超声波传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA2M" category="F" term-id-from="001">
+<name>间隙警告蜂鸣器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA2N" category="F" term-id-from="001">
+<name>多信息显示屏</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA2R" category="F" term-id-from="001">
+<name>多功能显示屏</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA2S" category="F" term-id-from="001">
+<name>抬头显示装置</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0389676">
+<name>驻车辅助监视系统</name>
+<para id="NM100000001HA2U" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA2V" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA2W" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA2X" category="F" term-id-from="001">
+<name>驻车辅助监视控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA2T" category="F" term-id-from="001">
+<name>后电视摄像机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA2Y" category="F" term-id-from="001">
+<name>多功能显示屏</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0389677">
+<name>盲区监视系统</name>
+<para id="NM100000001HA2Z" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA32" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA31" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA33" category="F" term-id-from="001">
+<name>盲区监视控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA34" category="F" term-id-from="001">
+<name>多功能显示屏</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA30" category="F" term-id-from="001">
+<name>盲区监视传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0389678">
+<name>全景监视系统</name>
+<para id="NM100000001HA39" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA3A" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA3B" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA35" category="F" term-id-from="001">
+<name>全景监视控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA37" category="F" term-id-from="001">
+<name>前电视摄像机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA38" category="F" term-id-from="001">
+<name>侧电视摄像机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HA36" category="F" term-id-from="001">
+<name>后电视摄像机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="_57">
+<name>电源/网络</name>
+<section id="_079515">
+<name>A25A-FKS（蓄电池/充电系统）</name>
+<ttl id="_0386754">
+<name>充电系统</name>
+<para id="NM100000001GTN7" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GTN8" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GTN9" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GTNC" category="F" term-id-from="001">
+<name>充电控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GTNA" category="F" term-id-from="001">
+<name>发电机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GTNB" category="F" term-id-from="001">
+<name>蓄电池</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GTN6" category="F" term-id-from="001">
+<name>蓄电池传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079516">
+<name>A25B-FXS（蓄电池/充电系统）</name>
+<ttl id="_0386829">
+<name>充电系统</name>
+<para id="NM100000001GU27" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GU28" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GU2C" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GU29" category="F" term-id-from="001">
+<name>充电控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GU2A" category="F" term-id-from="001">
+<name>辅助蓄电池</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GU2B" category="F" term-id-from="001">
+<name>蓄电池传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079493">
+<name>网络系统</name>
+<ttl id="_0385296">
+<name>多路通信系统 [AVC-LAN]</name>
+<para id="NM100000001GLIB" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLIC" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLID" category="F" term-id-from="001">
+<name>AVC-LAN 通信控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0385297">
+<name>LIN 通信系统</name>
+<para id="NM100000001GLIE" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLIF" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLIG" category="F" term-id-from="001">
+<name>LIN 通信控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0385298">
+<name>CAN 通信系统（HV 车型）</name>
+<para id="NM100000001GLIH" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLII" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLIJ" category="F" term-id-from="001">
+<name>CAN 通信控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0385299">
+<name>CAN 通信系统（汽油车型）</name>
+<para id="NM100000001GLIK" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLIL" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLIM" category="F" term-id-from="001">
+<name>CAN 通信控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="_58">
+<name>车辆内饰</name>
+<section id="_080176">
+<name>门锁</name>
+<ttl id="_0388783">
+<name>电动门锁控制系统</name>
+<para id="NM100000001H3YT" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3YU" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3YV" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3YS" category="F" term-id-from="001">
+<name>电动门锁控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGCM" category="F" term-id-from="001">
+<name>门控电池</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0388784">
+<name>遥控门锁控制系统</name>
+<para id="NM100000001H3YY" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3YZ" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3Z0" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3YW" category="F" term-id-from="001">
+<name>遥控门锁控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3YX" category="F" term-id-from="001">
+<name>钥匙</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_080177">
+<name>防盗/无钥匙上车系统</name>
+<ttl id="_0388786">
+<name>智能上车和起动系统（HV 车型）</name>
+<para id="NM100000001H3ZJ" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZN" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZO" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZP" category="F" term-id-from="001">
+<name>智能上车和起动控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZM" category="F" term-id-from="001">
+<name>钥匙</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZR" category="F" term-id-from="001">
+<name>电源开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZQ" category="F" term-id-from="001">
+<name>指示灯/警告灯/多功能显示屏</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZK" category="F" term-id-from="001">
+<name>认证 ECU</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZL" category="F" term-id-from="001">
+<name>车门控制接收器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0388787">
+<name>智能上车和起动系统（汽油车型）</name>
+<para id="NM100000001H3ZS" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZX" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZY" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZZ" category="F" term-id-from="001">
+<name>智能上车和起动控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZV" category="F" term-id-from="001">
+<name>钥匙</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZW" category="F" term-id-from="001">
+<name>发动机开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001H400" category="F" term-id-from="001">
+<name>指示灯/警告灯/多功能显示屏</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZT" category="F" term-id-from="001">
+<name>认证 ECU</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001H3ZU" category="F" term-id-from="001">
+<name>车门控制接收器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0388788">
+<name>发动机停机系统</name>
+<para id="NM100000001H401" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0388789">
+<name>防盗系统</name>
+<para id="NM100000001H402" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H403" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H404" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001H405" category="F" term-id-from="001">
+<name>防盗控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079960">
+<name>照明系统（车内）</name>
+<ttl id="_0387855">
+<name>照明系统</name>
+<para id="NM100000001GZMJ" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZMK" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZML" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZMM" category="F" term-id-from="001">
+<name>上车照明控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079109">
+<name>仪表/显示屏</name>
+<ttl id="_0383562">
+<name>仪表系统</name>
+<para id="NM100000001GBRO" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GBRP" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GBRQ" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GBRR" category="F" term-id-from="001">
+<name>组合仪表</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GBRS" category="F" term-id-from="001">
+<name>指示灯/警告灯/多功能显示屏</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GBRM" category="F" term-id-from="001">
+<name>抬头显示装置</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GBRN" category="F" term-id-from="001">
+<name>挡风玻璃</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GBRT" category="F" term-id-from="001">
+<name>方向盘装饰盖开关</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079222">
+<name>辅助约束系统</name>
+<ttl id="_0384168">
+<name>空气囊系统</name>
+<para id="NM100000001GFAX" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GFB4" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GFB5" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GFB6" category="F" term-id-from="001">
+<name>空气囊控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GFB7" category="F" term-id-from="001">
+<name>空气囊 ECU 总成</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GFAY" category="F" term-id-from="001">
+<name>驾驶员空气囊</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GFAZ" category="F" term-id-from="001">
+<name>乘客空气囊</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GFB0" category="F" term-id-from="001">
+<name>膝部空气囊</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GFB1" category="F" term-id-from="001">
+<name>侧空气囊</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GFB2" category="F" term-id-from="001">
+<name>帘式空气囊</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GFB3" category="F" term-id-from="001">
+<name>空气囊传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079108">
+<name>碰撞预测</name>
+<ttl id="_0383561">
+<name>碰撞预测系统</name>
+<para id="NM100000001GBRF" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GBRG" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GBRE" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GBRH" category="F" term-id-from="001">
+<name>碰撞预测控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GBRI" category="F" term-id-from="001">
+<name>指示灯/警告灯/多功能显示屏</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GBRJ" category="F" term-id-from="001">
+<name>毫米波雷达传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GBRK" category="F" term-id-from="001">
+<name>前向识别摄像机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GBRL" category="F" term-id-from="001">
+<name>摄像机加热器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079556">
+<name>座椅</name>
+<ttl id="_0385612">
+<name>电动座椅控制系统</name>
+<para id="NM100000001GN4R" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GN4S" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GN4T" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GN4Q" category="F" term-id-from="001">
+<name>座椅控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0385613">
+<name>座椅加热器系统</name>
+<para id="NM100000001GN4V" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GN4W" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GN4X" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0385614">
+<name>座椅温度控制系统</name>
+<para id="NM100000001GN4Z" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GN50" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GN51" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GN4Y" category="F" term-id-from="001">
+<name>温度控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0385615">
+<name>座椅总成</name>
+<para id="NM100000001GN53" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GN52" category="F" term-id-from="001">
+<name>前排座椅</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GN54" category="F" term-id-from="001">
+<name>后排座椅</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079959">
+<name>暖风/空调</name>
+<ttl id="_0387856">
+<name>空调系统</name>
+<para id="NM100000001GZMN" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZMO" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZMP" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZMQ" category="F" term-id-from="001">
+<name>空调控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZMR" category="F" term-id-from="001">
+<name>空调控制面板</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZMS" category="F" term-id-from="001">
+<name>空调装置</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZMT" category="F" term-id-from="001">
+<name>冷却器 1 号蒸发器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZMU" category="F" term-id-from="001">
+<name>蒸发器温度传感器（冷却器 1 号热敏电阻）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZMV" category="F" term-id-from="001">
+<name>加热器散热装置</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZMW" category="F" term-id-from="001">
+<name>带风扇的鼓风机电动机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZMX" category="F" term-id-from="001">
+<name>伺服电动机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZMY" category="F" term-id-from="001">
+<name>总线连接器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZMZ" category="F" term-id-from="001">
+<name>空气净化滤清器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZN6" category="F" term-id-from="001">
+<name>冷却器冷凝器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZN9" category="F" term-id-from="001">
+<name>冷却器压缩机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZN4" category="F" term-id-from="001">
+<name>电动逆变器压缩机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZN0" category="F" term-id-from="001">
+<name>车内温度传感器（冷却器热敏电阻）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZN1" category="F" term-id-from="001">
+<name>环境温度传感器（热敏电阻）</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZN7" category="F" term-id-from="001">
+<name>空调热敏电阻</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZN2" category="F" term-id-from="001">
+<name>阳光传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZN3" category="F" term-id-from="001">
+<name>空调压力传感器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001H86Y" category="F" term-id-from="001">
+<name>离子发生器</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079961">
+<name>电源插座（车内）</name>
+<ttl id="_0387868">
+<name>电源插座系统</name>
+<para id="NM100000001GZO5" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZO6" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GZO7" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079392">
+<name>内饰板/装饰件</name>
+<ttl id="_0384833">
+<name>后遮阳帘系统</name>
+<para id="NM100000001GIMD" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIMB" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIMC" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIMA" category="F" term-id-from="001">
+<name>后遮阳帘系统控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0390572">
+<name>内饰</name>
+<para id="NM100000001HGAC" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGAD" category="F" term-id-from="001">
+<name>独特外观/实体感觉</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGAE" category="F" term-id-from="001">
+<name>静谧性</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGAG" category="F" term-id-from="001">
+<name>安全特性</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+</servcat>
+<servcat id="_59">
+<name>车辆外饰</name>
+<section id="_080569">
+<name>车窗/玻璃</name>
+<ttl id="_0390575">
+<name>挡风玻璃/车窗玻璃系统</name>
+<para id="NM100000001HGBT" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGBU" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGBV" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGBS" category="F" term-id-from="001">
+<name>后除雾器控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0390576">
+<name>电动车窗控制系统</name>
+<para id="NM100000001HGBX" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGBY" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGBZ" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGBW" category="F" term-id-from="001">
+<name>电动车窗控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079393">
+<name>滑动天窗/活顶</name>
+<ttl id="_0384837">
+<name>滑动天窗系统</name>
+<para id="NM100000001GINO" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GINL" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GINM" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GINN" category="F" term-id-from="001">
+<name>滑动天窗控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0384844">
+<name>全景天窗系统</name>
+<para id="NM100000001GIOK" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIOL" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIOM" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GION" category="F" term-id-from="001">
+<name>全景天窗控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079394">
+<name>车门/舱门</name>
+<ttl id="_0384849">
+<name>行李箱门开启器系统</name>
+<para id="NM100000001GIQ0" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIQ1" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIQ2" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIQ3" category="F" term-id-from="001">
+<name>行李箱门开启器系统控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0384855">
+<name>燃油加注口盖开启器系统</name>
+<para id="NM100000001GIQS" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIQT" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIQU" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIQV" category="F" term-id-from="001">
+<name>燃油加注口盖开启器控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079479">
+<name>后视镜（车外）</name>
+<ttl id="_0385250">
+<name>后视镜系统</name>
+<para id="NM100000001GL9X" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GL9Y" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GL9Z" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GLA0" category="F" term-id-from="001">
+<name>后视镜加热器控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GL9W" category="F" term-id-from="001">
+<name>后视镜控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079519">
+<name>刮水器/清洗器</name>
+<ttl id="_0386973">
+<name>刮水器和清洗器系统</name>
+<para id="NM100000001GUO6" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GUO7" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GUO8" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GUO9" category="F" term-id-from="001">
+<name>刮水器控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GUOA" category="F" term-id-from="001">
+<name>清洗器喷嘴</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_079395">
+<name>照明系统（车外）</name>
+<ttl id="_0384857">
+<name>照明系统</name>
+<para id="NM100000001GIQX" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIQY" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIQZ" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIR0" category="F" term-id-from="001">
+<name>日间行车灯</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GW8P" category="F" term-id-from="001">
+<name>车门后视镜迎宾灯控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIR1" category="F" term-id-from="001">
+<name>车灯自动熄灭控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIR2" category="F" term-id-from="001">
+<name>自动灯光控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GJ22" category="F" term-id-from="001">
+<name>前照灯光束高度自动控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GJ23" category="F" term-id-from="001">
+<name>紧急制动信号</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIR3" category="F" term-id-from="001">
+<name>自动远光</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIR4" category="F" term-id-from="001">
+<name>LED 前照灯系统</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIR6" category="F" term-id-from="001">
+<name>前照灯控制计算机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001GIR7" category="F" term-id-from="001">
+<name>前向识别摄像机</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+<section id="_080570">
+<name>外饰板/装饰件</name>
+<ttl id="_0390577">
+<name>格栅挡板系统（HV 车型）</name>
+<para id="NM100000001HGC0" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGC1" category="F" term-id-from="001">
+<name>系统图</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGC2" category="F" term-id-from="001">
+<name>零件位置</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGC3" category="F" term-id-from="001">
+<name>格栅挡板控制</name>
+<ncf-para ncf-para-category="CO">
+<name>控制</name>
+</ncf-para>
+</para>
+</ttl>
+<ttl id="_0390578">
+<name>车身结构</name>
+<para id="NM100000001HGCA" category="F" term-id-from="001">
+<name>概述</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGC4" category="F" term-id-from="001">
+<name>轻量化和高刚性车身</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGC5" category="F" term-id-from="001">
+<name>防锈车身</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGC6" category="F" term-id-from="001">
+<name>安全特性</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGCB" category="F" term-id-from="001">
+<name>空气动力学性能</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGC7" category="F" term-id-from="001">
+<name>车身外壳</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGC8" category="F" term-id-from="001">
+<name>吸音和减振材料</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+<para id="NM100000001HGC9" category="F" term-id-from="001">
+<name>低振动和低噪音车身</name>
+<ncf-para ncf-para-category="DE">
+<name>详情</name>
+</ncf-para>
+</para>
+</ttl>
+</section>
+</servcat>
+</pub>
+</tmc-service-toc>

@@ -1,0 +1,634 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body onSelectStart="return false" onContextMenu="return false" onSelectStart="return false" onContextMenu="return false">
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">NM35K0CC</span>
+<span class="globalServcat">_59</span>
+<span class="globalServcatName">车辆外饰</span>
+<span class="globalSection">_079395</span>
+<span class="globalSectionName">照明系统（车外）</span>
+<span class="globalTitle">_0384857</span>
+<span class="globalTitleName">照明系统</span>
+<span class="globalSubTitle">CO</span>
+<span class="globalSubTitleName">控制</span>
+<span class="globalCategory">F</span>
+</div>
+<h1>照明系统（车外）&nbsp;&nbsp;照明系统&nbsp;&nbsp;控制&nbsp;&nbsp;自动远光&nbsp;&nbsp;</h1>
+<br>
+<div id="NM100000001GIR3_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">主要零部件的功能
+</span></p>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:35%">
+<col style="width:64%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">零部件
+</th>
+<th class="alcenter">功能
+</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="2">
+<div class="footNote"><p>*1：汽油车型
+</p><p>*2：HV 车型
+</p></div>
+</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td class="alleft">前向识别摄像机
+</td>
+<td class="alleft">根据来自摄像机传感器的图片信息，识别迎面车辆、前方车辆的灯光和其他灯光后，确定点亮和熄灭远光的时间。然后，传感器发送远光请求信号至主车身 ECU（多路网络车身 ECU）。
+</td>
+</tr>
+<tr>
+<td class="alleft">主车身 ECU（多路网络车身 ECU）
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>接收到来自自动远光开关的开关信号。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>接收到来自转向传感器的 AUTO 或 HEAD 位置信号和远光位置信号。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>接收到来自前向识别摄像机的远光请求信号并将信号传输至左侧/右侧前照灯 ECU 分总成。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">左侧前照灯 ECU 分总成
+</td>
+<td class="alleft">接收远光请求信号并点亮远光（左侧）。
+</td>
+</tr>
+<tr>
+<td class="alleft">右侧前照灯 ECU 分总成
+</td>
+<td class="alleft">接收远光请求信号并点亮远光（右侧）。
+</td>
+</tr>
+<tr>
+<td class="alleft">ECM*1
+</td>
+<td class="alleft" rowspan="2">输出信号以指示换档杆置于 R。根据此信号，前向识别摄像机确定车辆移动的方向。
+</td>
+</tr>
+<tr>
+<td class="alleft">混合动力车辆控制 ECU*2
+</td>
+</tr>
+<tr>
+<td class="alleft">制动执行器总成*1
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>防滑控制 ECU
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alleft" rowspan="2">输出关于驱动轮平均速度的信息。前向识别摄像机使用此信息，以控制自动远光系统在远光和近光之间的切换。
+</td>
+</tr>
+<tr>
+<td>带主缸的制动助力器总成*2
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>防滑控制 ECU
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td>组合仪表总成
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>自动远光系统激活时，自动远光指示灯点亮以提醒驾驶员。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>开启远光时，点亮远光指示灯以提醒驾驶员。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检测到自动远光系统内故障时显示警告信息。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">空气囊 ECU 总成
+</td>
+<td class="alleft">输出横摆率信息。
+</td>
+</tr>
+<tr>
+<td>自动灯光控制传感器
+</td>
+<td>检测环境光照水平。
+</td>
+</tr>
+<tr>
+<td>自动远光开关
+</td>
+<td>输出开关打开信号至主车身 ECU（多路网络车身 ECU）。
+</td>
+</tr>
+<tr>
+<td>前照灯变光开关总成
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>灯光控制开关
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>前照灯变光开关
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td>输出灯光控制开关和前照灯变光开关信号。
+</td>
+</tr>
+<tr>
+<td class="alleft">转向传感器
+</td>
+<td class="alleft">接收来自前照灯变光开关总成的灯光控制开关信号和前照灯变光开关信号并将其发送至主车身 ECU（多路网络车身 ECU）。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">系统控制
+</span></p>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:20%">
+<col style="width:79%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">功能
+</th>
+<th class="alcenter">工作条件
+</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="2">
+<div class="footNote"><p>*1：汽油车型
+</p><p>*2：HV 车型
+</p></div>
+</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td class="alleft">激活
+</td>
+<td class="alleft">满足以下所有条件时，自动远光系统激活且自动远光指示灯点亮：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>将发动机开关置于 ON (IG) 位置。*1
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>电源开关置于 ON (IG) 位置。*2
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>灯光控制开关（前照灯变光开关总成）置于 AUTO 或 HEAD 位置且近光前照灯点亮。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>前照灯变光开关（前照灯变光开关总成）置于远光位置。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>自动远光开关置于 ON 位置。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>换档杆置于 R 以外的任何位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">开启远光
+</td>
+<td class="alleft">满足以下所有条件时，自动远光系统在短暂延迟后开启远光：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车速高于约 30 km/h (19 mph)。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车辆前方区域光线暗淡。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>前照灯点亮时迎面无车辆。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>尾灯点亮时前方无车辆。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>前方街道沿路很少有路灯。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">关闭远光
+</td>
+<td class="alleft">满足以下任一条件时，自动远光系统在短暂延迟后关闭远光：
+<br>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车速低于约 25 km/h (16 mph)。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>车辆前方区域光线不暗淡。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检测到点亮前照灯的迎面车辆。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检测到点亮尾灯的前方车辆。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>前方街道沿路有多盏路灯。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">功能
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>经过迎面车辆时：
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>在距迎面车辆约 800 m (2625 ft.) 以内时，自动远光系统关闭远光。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>迎面车辆在摄像机传感器检测范围以外经过时，在短暂延迟后自动远光系统开启远光。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/Y100276C02.png" alt="Y100276C02" title="Y100276C02">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">5.177,3.229 5.177,3.427</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">3.25,0.375 3.563,0.573</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">3.99,1.844 4.302,2.042</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">*b</span>
+</span>
+<span class="caption">
+<span class="points">5.146,3.458 5.458,3.656</span>
+<span class="captionSize">0.313,0.198</span>
+<span class="fontsize">10</span>
+<span class="captionText">*c</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">800 m (2625 ft.)
+</td>
+<td class="alcenter">*b
+</td>
+<td class="alleft">延迟
+</td>
+</tr>
+<tr>
+<td class="alcenter">*c
+</td>
+<td class="alleft">摄像机传感器角度
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检测范围随检测到的物体变化而变化。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>远光开启和关闭时间随迎面（和前方）车辆灯光强度的变化而变化。
+</p>
+</div>
+</div>
+</div>
+<br>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item step2HasFigure">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>经过前方车辆时：
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>在距前方车辆约 600 m (1969 ft.) 时，自动远光系统关闭远光。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>前方车辆在摄像机传感器检测范围以外经过时，在短暂延迟后自动远光系统开启远光。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="figure">
+<div class="cPattern">
+<div class="graphic">
+<img src="../img/png/Y134696C01.png" alt="Y134696C01" title="Y134696C01">
+<div class="indicateinfo">
+<span class="line">
+<span class="points">4.99,3.5 4.99,3.281</span>
+<span class="whiteedge">false</span>
+</span>
+<span class="caption">
+<span class="points">3.198,0.438 3.51,0.594</span>
+<span class="captionSize">0.313,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*a</span>
+</span>
+<span class="caption">
+<span class="points">2.656,3.406 2.969,3.563</span>
+<span class="captionSize">0.313,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*b</span>
+</span>
+<span class="caption">
+<span class="points">4.927,3.542 5.24,3.698</span>
+<span class="captionSize">0.313,0.156</span>
+<span class="fontsize">10</span>
+<span class="filled">false</span>
+<span class="captionText">*c</span>
+</span>
+</div>
+</div>
+<table summary="caption-table">
+<colgroup>
+<col style="width:10%">
+<col style="width:39%">
+<col style="width:10%">
+<col style="width:39%">
+</colgroup>
+<tbody>
+<tr>
+<td class="alcenter">*a
+</td>
+<td class="alleft">600 m (1969 ft.)
+</td>
+<td class="alcenter">*b
+</td>
+<td class="alleft">延迟
+</td>
+</tr>
+<tr>
+<td class="alcenter">*c
+</td>
+<td class="alleft">摄像机传感器角度
+</td>
+<td class="alcenter">-
+</td>
+<td class="alleft">-
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+<br>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>远光开启和关闭时间随前方车辆灯光强度的变化而变化。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">诊断
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>主车身 ECU（多路网络车身 ECU）检测到自动远光控制系统内故障时，在存储器中存储诊断故障码 (DTC)。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>采用 Global TechStream (GTS) 可读取 DTC。有关详情，请参考修理手册。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

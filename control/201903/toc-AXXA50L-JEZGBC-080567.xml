@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><tmc-service-toc><pub id="NM35K0CC"><servcat id="_V1"><name>概述</name><section id="_080567">
+<name>导言</name>
+<ttl id="_0390573">
+<name>特征</name>
+<para category="F" id="NM100000001HGBC" term-id-from="001">
+<name>车型代码和车型阵容</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001HGBD" term-id-from="001">
+<name>外观</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001HGBE" term-id-from="001">
+<name>性能</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+<para category="F" id="NM100000001HGBF" term-id-from="001">
+<name>设备</name>
+<ncf-para ncf-para-category="GE">
+<name>概述</name>
+</ncf-para>
+</para>
+</ttl>
+</section></servcat></pub></tmc-service-toc>

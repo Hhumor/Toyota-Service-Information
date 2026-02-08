@@ -1,0 +1,22 @@
+#facebox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: none;
+}
+
+#facebox .popup {
+    position: relative;
+}
+
+#facebox .content {
+    display: block;
+}
+
+#facebox .close {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}

@@ -1,0 +1,228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body onSelectStart="return false" onContextMenu="return false" onSelectStart="return false" onContextMenu="return false">
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">NM35K0CC</span>
+<span class="globalServcat">_57</span>
+<span class="globalServcatName">电源/网络</span>
+<span class="globalSection">_079515</span>
+<span class="globalSectionName">A25A-FKS 蓄电池/充电系统</span>
+<span class="globalTitle">_0386754</span>
+<span class="globalTitleName">充电系统</span>
+<span class="globalSubTitle">CO</span>
+<span class="globalSubTitleName">控制</span>
+<span class="globalCategory">F</span>
+</div>
+<h1>A25A-FKS 蓄电池/充电系统&nbsp;&nbsp;充电系统&nbsp;&nbsp;控制&nbsp;&nbsp;充电控制&nbsp;&nbsp;</h1>
+<br>
+<div id="NM100000001GTNC_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">主要零部件的功能
+</span></p>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:22%">
+<col style="width:27%">
+<col style="width:50%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter" colspan="2">零部件
+</th>
+<th class="alcenter">功能
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="alleft" colspan="2">ECM
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检测电气负载状况。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据蓄电池状态传感器总成检测的电流、蓄电池温度、充电状态和良好状态监测蓄电池状态。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>根据电气负载、蓄电池状态和各种传感器计算请求电压，并将请求电压信号发送至 IC 调节器。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>控制发电机总成产生的电压。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft">发电机总成
+</td>
+<td class="alleft">IC 调节器
+</td>
+<td class="alleft">接收来自 ECM 的请求电压指令信号并给蓄电池充电。
+</td>
+</tr>
+<tr>
+<td class="alleft" colspan="2">蓄电池状态传感器总成
+</td>
+<td class="alleft">检测蓄电池的电流、电压、温度、充电状态、良好状态和功能状态，并通过 LIN 通信将数据输出至 ECM。
+</td>
+</tr>
+<tr>
+<td class="alleft" colspan="2">蓄电池
+</td>
+<td class="alleft">向鼓风机电动机、刮水器、车灯和各 ECU 等电气零部件供电。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">系统控制
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>基本控制模式
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>ECM 降低加速期间产生的电压及加大减速期间的电压以减少发电机总成引起的发动机负载量，从而提高燃油效率。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>怠速和定速行驶期间，ECM 调节产生的电压并使电流集成值* 接近目标值。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>*：蓄电池状态传感器总成检测的蓄电池输入/输出电流的集成值。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>恒压模式
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>在下列情况下，暂停基本控制并执行恒定电压控制。
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">1.</div>
+<div class="list1Body"><p>需要特定电气部件稳定工作
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">1.</div>
+<div class="list2Body"><p>为防止某些电气零部件工作不稳，基本控制模式会停止，由恒压模式提供稳定电压。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="list1Item">
+<div class="list1Head">2.</div>
+<div class="list1Body"><p>稳定使用蓄电池
+</p>
+</div>
+</div>
+<div class="list2">
+<div class="list2Item">
+<div class="list2Head">1.</div>
+<div class="list2Body"><p>为防止蓄电池板因反复充放电形成硫酸铅，每充放电 30 小时会进行一次恒压控制，以使蓄电池充分充电。
+</p>
+</div>
+</div>
+<div class="list2Item">
+<div class="list2Head">2.</div>
+<div class="list2Body"><p>蓄电池充电状态差或蓄电池温度高/低时，执行恒压控制，以将蓄电池劣化程度降至最低。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>

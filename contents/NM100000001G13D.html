@@ -1,0 +1,570 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="zh">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<link rel="stylesheet" type="text/css" href="../../../system/css/global.css">
+<link rel="stylesheet" type="text/css" href="../css/contents.css">
+<link rel="stylesheet" type="text/css" href="../../../system/css/facebox.css">
+<link rel="stylesheet" type="text/css" href="../css/print.css" id="print_css">
+<script type="text/javascript" src="../../../system/js/util.js?cntl=Contents" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_const.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/dict_message.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/use.js" charset="UTF-8"></script>
+<script type="text/javascript" src="../../../system/js/contents.js" charset="UTF-8"></script>
+<title>Toyota Service Information</title>
+</head>
+<body onSelectStart="return false" onContextMenu="return false" onSelectStart="return false" onContextMenu="return false">
+<div id="wrapper">
+<div id="header"></div>
+<div id="body">
+<div id="contents">
+<div id="contentsBody" class="fontEn">
+<div class="globalInfo">
+<span class="globalPubNo">NM35K0CC</span>
+<span class="globalServcat">_53</span>
+<span class="globalServcatName">悬架</span>
+<span class="globalSection">_078674</span>
+<span class="globalSectionName">轮胎压力监控</span>
+<span class="globalTitle">_0381636</span>
+<span class="globalTitleName">轮胎压力警告系统</span>
+<span class="globalSubTitle">CO</span>
+<span class="globalSubTitleName">控制</span>
+<span class="globalCategory">F</span>
+</div>
+<h1>轮胎压力监控&nbsp;&nbsp;轮胎压力警告系统&nbsp;&nbsp;控制&nbsp;&nbsp;轮胎压力警告控制&nbsp;&nbsp;</h1>
+<br>
+<div id="NM100000001G13D_z0" class="category no00">
+<div class="content5">
+<div class="step1">
+<p class="step1"><span class="titleText">主要零部件的功能
+</span></p>
+<br>
+<table summary="">
+<colgroup>
+<col style="width:14%">
+<col style="width:14%">
+<col style="width:70%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter" colspan="2">零部件
+</th>
+<th class="alcenter">功能
+</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="3">
+<div class="footNote"><p>*1：汽油车型
+</p><p>*2：HV 车型
+</p></div>
+</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td colspan="2">轮胎压力警告阀和发射器
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检测轮胎的充气压力和温度，并将测量值和 ID 代码传输至轮胎压力警告 ECU 和接收器。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>将来自内置加速度传感器的加速率信号传输至轮胎压力警告 ECU 和接收器，以识别轮胎位置。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td colspan="2">轮胎压力警告 ECU 和接收器
+</td>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>接收来自各轮胎压力警告阀和发射器的数据并监控轮胎充气压力。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>检测到轮胎充气压力降低、系统故障或初始化开始时将各自信号输出至组合仪表总成。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>使用自防滑控制 ECU 的车轮转速信号和轮胎压力警告阀和发射器的加速信号，系统将各轮胎压力警告阀连接至轮胎位置。然后，将信号发送至组合仪表总成以在多信息显示屏上显示轮胎压力信息。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft" colspan="2">主车身 ECU（多路网络车身 ECU）
+</td>
+<td class="alleft">接收来自轮胎压力警告 ECU 和接收器的信号，并将其通过 CAN 通信输出至组合仪表总成。
+</td>
+</tr>
+<tr>
+<td class="alleft" colspan="2">转速传感器
+</td>
+<td class="alleft">分别检测 4 个车轮的车轮转速脉冲数并将 4 个车轮转速脉冲数信号发送至防滑控制 ECU。
+</td>
+</tr>
+<tr>
+<td class="alleft">制动执行器总成*1
+</td>
+<td class="alleft">防滑控制 ECU
+</td>
+<td class="alleft" rowspan="2">将 4 个车轮转速信号传输至轮胎压力警告 ECU 和接收器。
+</td>
+</tr>
+<tr>
+<td class="alleft">带主缸的制动助力器总成*2
+</td>
+<td class="alleft">防滑控制 ECU
+</td>
+</tr>
+<tr>
+<td colspan="2">组合仪表总成
+</td>
+<td>发送车速信号至轮胎压力警告 ECU 和接收器。
+</td>
+</tr>
+<tr>
+<td rowspan="2">组合仪表总成
+</td>
+<td>轮胎压力警告灯
+</td>
+<td>根据来自轮胎压力警告 ECU 和接收器的信号亮起或闪烁 1 分钟，以警告驾驶员。
+</td>
+</tr>
+<tr>
+<td class="alleft">多信息显示屏
+</td>
+<td class="alleft">显示识别的轮胎压力和位置以通知或警告驾驶员。
+</td>
+</tr>
+<tr>
+<td class="alleft" colspan="2">方向盘装饰盖开关总成
+</td>
+<td class="alleft"><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>按下时，将多信息显示屏上的信息切换成轮胎压力。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>通过操作开关对系统进行初始化。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td class="alleft" colspan="2">中央网关 ECU（网络网关 ECU）
+</td>
+<td class="alleft">CAN 通信的网关功能。
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">功能
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>轮胎充气压力显示功能
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>多信息显示屏显示以下内容以通知或警告驾驶员轮胎压力。
+</p>
+<table summary="" class="tableHasfigure">
+<colgroup>
+<col style="width:50%">
+<col style="width:50%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">条件
+</th>
+<th class="alcenter">多信息显示屏*
+</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="2">
+<div class="footNote"><p>*：这些插图为示例。
+</p></div>
+</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td>轮胎压力正常。
+</td>
+<td class="alcenter"><div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/X140173.png" alt="X140173" title="X140173">
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td>轮胎压力低于警告阈值。
+</td>
+<td class="alcenter"><div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/X140174.png" alt="X140174" title="X140174">
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td><div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>未完成轮胎位置识别时。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>自动识别码注册未完成。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>系统发生故障时。
+</p>
+</div>
+</div>
+</div>
+<br>
+</td>
+<td class="alcenter"><div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/X140175.png" alt="X140175" title="X140175">
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>将发动机开关（汽油车型）或电源开关（HV 车型）置于 ON (IG) 位置、进行初始化，或注册发射器识别码时，将执行轮胎位置识别。然而，在特定情况下，可能不会显示轮胎位置。在这种情况下，可能会通过持续行驶来恢复电波状况，以进行轮胎定位。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>以 40 km/h 或更高的速度驾驶车辆约 10 至 30 分钟以完成轮胎位置识别。完成识别后，以约 1 分钟的间隔更新轮胎压力值。车辆静止时，每 1.5 分钟约更新一次气压值。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>警告功能
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>满足下列任一条件时，轮胎压力警告系统点亮轮胎压力警告灯以警告驾驶员。
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>系统初始化过程中，轮胎压力下降至默认轮胎压力设定值的约 80% 或更低时。
+</p>
+<dl class="atten4">
+<dt class="atten4">提示：</dt>
+<dd class="atten4">
+<p>完成系统初始化且行驶一段时间后，系统根据车辆驾驶条件修正初始化期间设定的轮胎压力并设定变暖时的轮胎压力。
+</p>
+</dd>
+</dl>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>根据检测到的状况，轮胎压力警告系统采用 2 种警告方法。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>下表显示了组合仪表总成上的轮胎压力警告灯和多信息显示屏的警告方法。
+</p>
+<table summary="" class="tableHasfigure">
+<colgroup>
+<col style="width:25%">
+<col style="width:25%">
+<col style="width:48%">
+</colgroup>
+<thead>
+<tr>
+<th class="alcenter">检测条件
+</th>
+<th class="alcenter">轮胎压力警告灯
+</th>
+<th class="alcenter">多信息显示屏*3
+</th>
+</tr>
+</thead>
+<tfoot>
+<tr>
+<td colspan="3">
+<div class="footNote"><p>*1：如果轮胎压力警告灯点亮，则调节轮胎压力。
+</p><p>*2：如果轮胎压力警告灯闪烁 1 分钟后持续点亮，则系统故障且必须进行维修以熄灭警告灯。有关详情，请参考修理手册。
+</p><p>*3：这些插图为示例。
+</p></div>
+</td>
+</tr>
+</tfoot>
+<tbody>
+<tr>
+<td>轮胎压力警告系统检测到轮胎压力降至警告阈值以下。
+</td>
+<td class="alcenter">点亮*1
+</td>
+<td class="alcenter"><div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/X140174.png" alt="X140174" title="X140174">
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+<tr>
+<td>轮胎压力警告系统检测到系统故障。
+</td>
+<td class="alcenter">闪烁 1 分钟后持续点亮*2
+</td>
+<td class="alcenter"><div class="figure">
+<div class="aPattern">
+<div class="graphic">
+<img src="../img/png/X140175.png" alt="X140175" title="X140175">
+</div>
+</div>
+</div>
+<br>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">c.</div>
+<div class="step2Body">
+<p>初始检查功能
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>发动机开关（汽油车型）或电源开关（HV 车型）置于 ON (IG) 后，轮胎压力警告 ECU 和接收器亮起轮胎压力警告灯 3 秒以检测警告灯电路。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">d.</div>
+<div class="step2Body">
+<p>初始化功能
+</p>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">i.</div>
+<div class="step3Body">
+<p>初始化时，通过轮胎充气压力阀和车轮转速传感器计算警告阈值和车轮位置并存储在轮胎压力警告 ECU 和接收器中。因此，应在进行以下程序后对轮胎压力警告 ECU 和接收器进行初始化。
+</p>
+<div class="list1">
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>由于车辆质量、车速情况或轮胎尺寸改变，推荐的轮胎充气压力改变。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>更换轮胎压力警告 ECU 和接收器或轮胎压力警告阀和发射器。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>调节轮胎压力。
+</p>
+</div>
+</div>
+<div class="list1Item">
+<div class="list1Head">&middot;</div>
+<div class="list1Body"><p>旋转轮胎时。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">ii.</div>
+<div class="step3Body">
+<p>初始化操作完成后，轮胎压力警告 ECU 和接收器接收初始化信号且轮胎压力警告灯缓慢点亮 3 次。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iii.</div>
+<div class="step3Body">
+<p>执行初始化前，轮胎冷态时调节轮胎充气压力至推荐压力。有关详情，请参考修理手册。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step3">
+<div class="step3Item">
+<div class="step3Head">iv.</div>
+<div class="step3Body">
+<p>初始化操作并非用于取消警告，初始化操作用于关闭轮胎压力警告灯。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+<div class="step1">
+<p class="step1"><span class="titleText">诊断
+</span></p>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">a.</div>
+<div class="step2Body">
+<p>当轮胎压力警告 ECU 和接收器检测到系统故障时，轮胎压力警告 ECU 和接收器将使轮胎压力警告灯闪烁 1 分钟后持续点亮以警告驾驶员。其也会将诊断故障码 (DTC) 存储到存储器中。
+</p>
+</div>
+</div>
+</div>
+<br>
+<div class="step2">
+<div class="step2Item">
+<div class="step2Head">b.</div>
+<div class="step2Body">
+<p>Global TechStream (GTS) 连接到 DLC3 时可读取 DTC。有关详情，请参考修理手册。
+</p>
+</div>
+</div>
+</div>
+<br>
+</div>
+<br>
+</div>
+</div>
+</div>
+</div>
+<div id="footer"></div>
+</div>
+</div>
+</body>
+</html>
