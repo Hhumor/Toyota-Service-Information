@@ -12,6 +12,7 @@
     <div id="container">
         <div id="header">
             <h1>丰田维修服务信息系统</h1>
+            <button id="sidebar-toggle" class="sidebar-toggle" type="button">目录</button>
         </div>
         <div id="main">
             <div id="sidebar">
@@ -28,7 +29,17 @@
                 </div>
             </div>
             <div id="content">
-                <iframe id="content-frame" name="content-frame" src="" frameborder="0" allow="context-menu; selection"></iframe>
+                <div id="content-welcome">
+                    <div class="welcome-icon"></div>
+                    <div class="welcome-text">欢迎使用丰田维修服务信息系统</div>
+                    <div class="welcome-subtext">请从目录中选择一个项目以查看内容</div>
+                </div>
+                <div id="content-placeholder" class="content-placeholder hidden">
+                    <div class="placeholder-icon"></div>
+                    <div class="placeholder-text">加载中...</div>
+                    <div class="placeholder-subtext">请稍候</div>
+                </div>
+                <iframe id="content-frame" name="content-frame" src="about:blank" frameborder="0"></iframe>
             </div>
         </div>
     </div>

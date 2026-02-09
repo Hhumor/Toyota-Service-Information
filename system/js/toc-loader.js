@@ -175,10 +175,16 @@
                     });
                     treeItem.classList.add('active');
 
+                    showLoadingPlaceholder();
+
                     const contentUrl = CONTENTS_BASE_URL + item.id + '.html';
                     const iframe = document.getElementById('content-frame');
                     if (iframe) {
                         iframe.src = contentUrl;
+                    }
+
+                    if (isMobileView()) {
+                        setSidebarCollapsed(true);
                     }
 
                     history.pushState(null, null, '#' + item.id);
@@ -237,6 +243,8 @@
         }
 
         if (item.type === 'para') {
+            showLoadingPlaceholder();
+
             document.querySelectorAll('.tree-item.active').forEach(el => {
                 el.classList.remove('active');
             });
@@ -246,6 +254,10 @@
             const iframe = document.getElementById('content-frame');
             if (iframe) {
                 iframe.src = contentUrl;
+            }
+
+            if (isMobileView()) {
+                setSidebarCollapsed(true);
             }
         }
 
@@ -376,6 +388,7 @@
         const searchInput = document.getElementById('search-input');
         const searchResults = document.getElementById('search-results');
         const searchClear = document.getElementById('search-clear');
+        const sidebar = document.getElementById('sidebar');
 
         if (!searchInput || !searchResults || !searchClear) return;
 
@@ -418,11 +431,72 @@
                 searchResults.classList.add('hidden');
             }
         });
+
+        if (sidebar) {
+            sidebar.addEventListener('click', function(e) {
+                const target = e.target.closest('.tree-item');
+                if (target && isMobileView()) {
+                    setSidebarCollapsed(true);
+                }
+            });
+        }
+    }
+
+    function isMobileView() {
+        return window.matchMedia('(max-width: 768px)').matches;
+    }
+
+    function setSidebarCollapsed(collapsed) {
+        if (!document.body) return;
+        document.body.classList.toggle('sidebar-collapsed', collapsed);
+    }
+
+    function showLoadingPlaceholder() {
+        const placeholder = document.getElementById('content-placeholder');
+        const welcome = document.getElementById('content-welcome');
+        const iframe = document.getElementById('content-frame');
+
+        if (welcome) welcome.classList.add('hidden');
+        if (placeholder) placeholder.classList.remove('hidden');
+        if (iframe) iframe.classList.remove('hidden');
+    }
+
+    function hideLoadingPlaceholder() {
+        const placeholder = document.getElementById('content-placeholder');
+        if (placeholder) {
+            placeholder.classList.add('hidden');
+        }
+    }
+
+    function initSidebarToggle() {
+        const toggle = document.getElementById('sidebar-toggle');
+        if (!toggle) return;
+        toggle.addEventListener('click', function() {
+            const isCollapsed = document.body?.classList.contains('sidebar-collapsed');
+            setSidebarCollapsed(!isCollapsed);
+        });
+
+        window.addEventListener('resize', function() {
+            if (!isMobileView()) {
+                setSidebarCollapsed(false);
+            }
+        });
     }
 
     function init() {
+        setSidebarCollapsed(isMobileView());
         const treeContainer = document.getElementById('tree-container');
         const loading = document.getElementById('loading');
+        const iframe = document.getElementById('content-frame');
+        const welcome = document.getElementById('content-welcome');
+        const placeholder = document.getElementById('content-placeholder');
+
+        if (iframe) {
+            iframe.addEventListener('load', hideLoadingPlaceholder);
+            iframe.classList.add('hidden');
+        }
+        if (welcome) welcome.classList.remove('hidden');
+        if (placeholder) placeholder.classList.add('hidden');
 
         if (!treeContainer) {
             console.error('找不到tree-container元素');
@@ -441,6 +515,7 @@
 
                 handleHashChange();
                 initSearch();
+                initSidebarToggle();
             })
             .catch(error => {
                 console.error('加载目录失败:', error);
